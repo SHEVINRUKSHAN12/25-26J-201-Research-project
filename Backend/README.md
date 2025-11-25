@@ -29,3 +29,4 @@ This module evaluates generated floor plans against Vastu Vidya principles and s
     ```bash
     uvicorn app.main:app --reload
     ```
+# Reviewed
