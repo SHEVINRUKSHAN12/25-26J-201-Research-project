@@ -9,7 +9,3 @@ python-multipart
 pytest
 pytest-asyncio
 httpx
-
-# Reviewed
-
-# Validated
