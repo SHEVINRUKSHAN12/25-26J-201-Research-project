@@ -30,3 +30,5 @@ This module evaluates generated floor plans against Vastu Vidya principles and s
     uvicorn app.main:app --reload
     ```
 # Reviewed
+
+# Validated
