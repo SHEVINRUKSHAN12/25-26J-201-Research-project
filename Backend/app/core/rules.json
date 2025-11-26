@@ -1,1 +1,52 @@
-# Initial structure
+[
+  {
+    "rule_id": "main_entrance_direction",
+    "rule_name": "Main Entrance Direction",
+    "applicable_room_types": ["entrance", "main_door"],
+    "preferred_directions": ["NE", "E"],
+    "weight": 0.25,
+    "penalty_factor": 2.0,
+    "partial_allowed": false,
+    "explanation_template": "Main entrance should face {preferred} for positive energy flow. Detected direction: {detected}. Compliance: {compliance_level}."
+  },
+  {
+    "rule_id": "kitchen_placement",
+    "rule_name": "Kitchen Placement",
+    "applicable_room_types": ["kitchen"],
+    "preferred_directions": ["SE", "E"],
+    "weight": 0.20,
+    "penalty_factor": 1.5,
+    "partial_allowed": true,
+    "explanation_template": "Kitchen should be in {preferred} for optimal energy. Detected in {detected}. Compliance: {compliance_level}."
+  },
+  {
+    "rule_id": "bedroom_placement",
+    "rule_name": "Bedroom Placement",
+    "applicable_room_types": ["bedroom"],
+    "preferred_directions": ["SW", "W"],
+    "weight": 0.15,
+    "penalty_factor": 1.2,
+    "partial_allowed": true,
+    "explanation_template": "Bedrooms should be in {preferred} for restful sleep. {correct_count}/{total_count} bedrooms compliant. Compliance: {compliance_level}."
+  },
+  {
+    "rule_id": "toilet_placement",
+    "rule_name": "Toilet Placement",
+    "applicable_room_types": ["toilet"],
+    "preferred_directions": ["NW", "W"],
+    "weight": 0.25,
+    "penalty_factor": 1.8,
+    "partial_allowed": false,
+    "explanation_template": "Toilets should be in {preferred} to avoid negative energy. Detected directions: {detected}. Compliance: {compliance_level}."
+  },
+  {
+    "rule_id": "dining_toilet_separation",
+    "rule_name": "Dining-Toilet Separation",
+    "applicable_room_types": ["dining"],
+    "avoid_room_types": ["toilet"],
+    "weight": 0.15,
+    "penalty_factor": 1.3,
+    "partial_allowed": false,
+    "explanation_template": "Dining area should not be in same direction as toilet. Dining: {dining_dir}, Toilets: {toilet_dirs}. Compliance: {compliance_level}."
+  }
+]
