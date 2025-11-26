@@ -50,3 +50,4 @@
     "explanation_template": "Dining area should not be in same direction as toilet. Dining: {dining_dir}, Toilets: {toilet_dirs}. Compliance: {compliance_level}."
   }
 ]
+# Reviewed
