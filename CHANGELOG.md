@@ -60,3 +60,5 @@
 ## [2025-12-06 10:00:00] - Research on exterior design algorithms and existing solutions
 
 ## [2025-12-07 11:30:00] - Define project scope and system requirements
+
+## [2025-12-08 09:15:00] - Evaluate technology stack (FastAPI vs Flask, React vs Vue)
