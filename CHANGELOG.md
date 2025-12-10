@@ -64,3 +64,5 @@
 ## [2025-12-08 09:15:00] - Evaluate technology stack (FastAPI vs Flask, React vs Vue)
 
 ## [2025-12-09 14:00:00] - Create initial database schema design (ER Diagram)
+
+## [2025-12-10 16:45:00] - Draft API endpoint specifications
