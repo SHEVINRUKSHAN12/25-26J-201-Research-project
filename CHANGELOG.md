@@ -74,3 +74,5 @@
 ## [2025-12-13 13:20:00] - Implement user authentication models (User, Role)
 
 ## [2025-12-14 15:10:00] - Create authentication routes (Login, Register)
+
+## [2025-12-15 09:00:00] - Research 3D rendering libraries for Python
