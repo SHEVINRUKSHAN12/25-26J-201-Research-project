@@ -1,0 +1,183 @@
+{
+  "room_type": "living_room",
+  "units": "meters",
+  "description": "Living room furniture catalog - matches dataset furniture IDs.",
+  "furniture": [
+    {
+      "furniture_id": "sofa_l_shape_modern",
+      "category": "sofa",
+      "label": "Modern L-Shape Sofa",
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/sofa_l_shape_modern.png",
+      "model_3d": "/furniture/living_room/3d/sofa_l_shape_modern.png"
+    },
+    {
+      "furniture_id": "sofa_l_shape_classic",
+      "category": "sofa",
+      "label": "Classic L-Shape Sofa",
+      "width": 2.7,
+      "depth": 1.6,
+      "height": 0.9,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/sofa_l_shape_classic.png",
+      "model_3d": "/furniture/living_room/3d/sofa_l_shape_classic.png"
+    },
+    {
+      "furniture_id": "sofa_3seater_minimal",
+      "category": "sofa",
+      "label": "Minimalist 3-Seater Sofa",
+      "width": 2.0,
+      "depth": 0.8,
+      "height": 0.8,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/sofa_3seater_minimal.png",
+      "model_3d": "/furniture/living_room/3d/sofa_3seater_minimal.png"
+    },
+    {
+      "furniture_id": "coffee_table_glass",
+      "category": "table",
+      "label": "Glass Coffee Table",
+      "width": 1.0,
+      "depth": 0.6,
+      "height": 0.45,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/coffee_table_glass.png",
+      "model_3d": "/furniture/living_room/3d/coffee_table_glass.png"
+    },
+    {
+      "furniture_id": "coffee_table_wood",
+      "category": "table",
+      "label": "Wooden Coffee Table",
+      "width": 1.1,
+      "depth": 0.6,
+      "height": 0.45,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/coffee_table_wood.png",
+      "model_3d": "/furniture/living_room/3d/coffee_table_wood.png"
+    },
+    {
+      "furniture_id": "tv_unit_wall",
+      "category": "entertainment",
+      "label": "Wall-Mounted TV Unit",
+      "width": 1.8,
+      "depth": 0.35,
+      "height": 1.8,
+      "rotatable": false,
+      "image_2d": "/furniture/living_room/2d/tv_unit_wall.png",
+      "model_3d": "/furniture/living_room/3d/tv_unit_wall.png"
+    },
+    {
+      "furniture_id": "tv_unit_floor",
+      "category": "entertainment",
+      "label": "Floor Stand TV Unit",
+      "width": 1.6,
+      "depth": 0.45,
+      "height": 0.5,
+      "rotatable": false,
+      "image_2d": "/furniture/living_room/2d/tv_unit_floor.png",
+      "model_3d": "/furniture/living_room/3d/tv_unit_floor.png"
+    },
+    {
+      "furniture_id": "bookshelf_open",
+      "category": "storage",
+      "label": "Open Bookshelf",
+      "width": 0.8,
+      "depth": 0.3,
+      "height": 1.8,
+      "rotatable": false,
+      "image_2d": "/furniture/living_room/2d/bookshelf_open.png",
+      "model_3d": "/furniture/living_room/3d/bookshelf_open.png"
+    },
+    {
+      "furniture_id": "sofa_recliner_1seater",
+      "category": "seating",
+      "label": "Recliner Chair",
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 1.0,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/sofa_recliner_1seater.png",
+      "model_3d": "/furniture/living_room/3d/sofa_recliner_1seater.png"
+    },
+    {
+      "furniture_id": "ottoman_round",
+      "category": "seating",
+      "label": "Round Ottoman",
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/ottoman_round.png",
+      "model_3d": "/furniture/living_room/3d/ottoman_round.png"
+    },
+    {
+      "furniture_id": "floor_lamp_modern",
+      "category": "lighting",
+      "label": "Modern Floor Lamp",
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 1.6,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/floor_lamp_modern.png",
+      "model_3d": "/furniture/living_room/3d/floor_lamp_modern.png"
+    },
+    {
+      "furniture_id": "plant_indoor_large",
+      "category": "decor",
+      "label": "Large Indoor Plant",
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 1.2,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/plant_indoor_large.png",
+      "model_3d": "/furniture/living_room/3d/plant_indoor_large.png"
+    },
+    {
+      "furniture_id": "side_table_round",
+      "category": "table",
+      "label": "Round Side Table",
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/living_room/2d/side_table_round.png",
+      "model_3d": "/furniture/living_room/3d/side_table_round.png"
+    },
+    {
+      "furniture_id": "window_standard",
+      "category": "structural",
+      "label": "Standard Window",
+      "width": 1.2,
+      "depth": 0.2,
+      "height": 1.2,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    },
+    {
+      "furniture_id": "window_large",
+      "category": "structural",
+      "label": "Large Window",
+      "width": 2.0,
+      "depth": 0.2,
+      "height": 1.5,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    },
+    {
+      "furniture_id": "door_standard",
+      "category": "structural",
+      "label": "Standard Door",
+      "width": 0.9,
+      "depth": 0.1,
+      "height": 2.1,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    }
+  ]
+}
