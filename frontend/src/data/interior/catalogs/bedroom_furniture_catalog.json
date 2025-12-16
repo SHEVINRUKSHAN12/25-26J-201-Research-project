@@ -1,0 +1,171 @@
+{
+  "room_type": "bedroom",
+  "units": "meters",
+  "description": "Bedroom furniture catalog - matches dataset furniture IDs.",
+  "furniture": [
+    {
+      "furniture_id": "bed_single_72x36",
+      "category": "bed",
+      "label": "Single Bed (72x36 in)",
+      "width": 1.83,
+      "depth": 0.91,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bed_single.png",
+      "model_3d": "/furniture/bedroom/3d/bed_single.png"
+    },
+    {
+      "furniture_id": "bed_double_72x48",
+      "category": "bed",
+      "label": "Double Bed (72x48 in)",
+      "width": 1.83,
+      "depth": 1.22,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bed_double.png",
+      "model_3d": "/furniture/bedroom/3d/bed_double.png"
+    },
+    {
+      "furniture_id": "bed_queen_72x60",
+      "category": "bed",
+      "label": "Queen Bed (72x60 in)",
+      "width": 1.83,
+      "depth": 1.52,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bed_queen.png",
+      "model_3d": "/furniture/bedroom/3d/bed_queen.png"
+    },
+    {
+      "furniture_id": "bed_king_72x72",
+      "category": "bed",
+      "label": "King Bed (72x72 in)",
+      "width": 1.83,
+      "depth": 1.83,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bed_king.png",
+      "model_3d": "/furniture/bedroom/3d/bed_king.png"
+    },
+    {
+      "furniture_id": "wardrobe_small",
+      "category": "storage",
+      "label": "Small Wardrobe",
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "rotatable": false,
+      "image_2d": "/furniture/bedroom/2d/wardrobe_small.png",
+      "model_3d": "/furniture/bedroom/3d/wardrobe_small.png"
+    },
+    {
+      "furniture_id": "wardrobe_large",
+      "category": "storage",
+      "label": "Large Wardrobe",
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "rotatable": false,
+      "image_2d": "/furniture/bedroom/2d/wardrobe_large.png",
+      "model_3d": "/furniture/bedroom/3d/wardrobe_large.png"
+    },
+    {
+      "furniture_id": "side_table",
+      "category": "table",
+      "label": "Side Table",
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/side_table.png",
+      "model_3d": "/furniture/bedroom/3d/side_table.png"
+    },
+    {
+      "furniture_id": "dressing_table",
+      "category": "table",
+      "label": "Dressing Table",
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "rotatable": false,
+      "model_3d": "/furniture/bedroom/3d/dressing_table.png"
+    },
+    {
+      "furniture_id": "bed_bunk_standard",
+      "category": "bed",
+      "label": "Bunk Bed (Standard)",
+      "width": 1.9,
+      "depth": 1.0,
+      "height": 1.7,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bed_bunk_standard.png",
+      "model_3d": "/furniture/bedroom/3d/bed_bunk_standard.png"
+    },
+    {
+      "furniture_id": "chest_drawers_4",
+      "category": "storage",
+      "label": "Chest of Drawers (4)",
+      "width": 0.9,
+      "depth": 0.5,
+      "height": 1.0,
+      "rotatable": false,
+      "image_2d": "/furniture/bedroom/2d/chest_drawers_4.png",
+      "model_3d": "/furniture/bedroom/3d/chest_drawers_4.png"
+    },
+    {
+      "furniture_id": "study_desk_simple",
+      "category": "desk",
+      "label": "Simple Study Desk",
+      "width": 1.2,
+      "depth": 0.6,
+      "height": 0.75,
+      "rotatable": false,
+      "image_2d": "/furniture/bedroom/2d/study_desk_simple.png",
+      "model_3d": "/furniture/bedroom/3d/study_desk_simple.png"
+    },
+    {
+      "furniture_id": "bean_bag_large",
+      "category": "seating",
+      "label": "Large Bean Bag",
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 0.8,
+      "rotatable": true,
+      "image_2d": "/furniture/bedroom/2d/bean_bag_large.png",
+      "model_3d": "/furniture/bedroom/3d/bean_bag_large.png"
+    },
+    {
+      "furniture_id": "window_standard",
+      "category": "structural",
+      "label": "Standard Window",
+      "width": 1.2,
+      "depth": 0.2,
+      "height": 1.2,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    },
+    {
+      "furniture_id": "window_large",
+      "category": "structural",
+      "label": "Large Window",
+      "width": 2.0,
+      "depth": 0.2,
+      "height": 1.5,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    },
+    {
+      "furniture_id": "door_standard",
+      "category": "structural",
+      "label": "Standard Door",
+      "width": 0.9,
+      "depth": 0.1,
+      "height": 2.1,
+      "rotatable": true,
+      "image_2d": "",
+      "model_3d": ""
+    }
+  ]
+}
