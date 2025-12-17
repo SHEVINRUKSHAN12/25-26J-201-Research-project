@@ -1,0 +1,217 @@
+{
+  "room_type": "apartment",
+  "property_type": "apartment",
+  "units": "meters",
+  "description": "Space-saving furniture for Sri Lankan apartments. Multiple variations per furniture type.",
+  "furniture": [
+    {
+      "furniture_id": "bed_single_standard",
+      "category": "bed",
+      "label": "Standard Single Bed",
+      "width": 1.83,
+      "depth": 0.91,
+      "height": 0.55,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/bed_single_standard.png",
+      "model_3d": "/furniture/apartment/3d/bed_single_standard.png"
+    },
+    {
+      "furniture_id": "bed_single_storage",
+      "category": "bed",
+      "label": "Single Bed with Storage",
+      "width": 1.83,
+      "depth": 0.91,
+      "height": 0.6,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/bed_single_storage.png",
+      "model_3d": "/furniture/apartment/3d/bed_single_storage.png"
+    },
+    {
+      "furniture_id": "bed_murphy_vertical",
+      "category": "bed",
+      "label": "Murphy Bed (Fold-up)",
+      "width": 1.0,
+      "depth": 0.4,
+      "height": 2.2,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/bed_murphy_vertical.png",
+      "model_3d": "/furniture/apartment/3d/bed_murphy_vertical.png"
+    },
+    {
+      "furniture_id": "bed_loft",
+      "category": "bed",
+      "label": "Loft Bed (Elevated)",
+      "width": 1.4,
+      "depth": 2.0,
+      "height": 1.8,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/bed_loft.png",
+      "model_3d": "/furniture/apartment/3d/bed_loft.png"
+    },
+    {
+      "furniture_id": "sofa_2seater_compact",
+      "category": "sofa",
+      "label": "Compact 2-Seater Sofa",
+      "width": 1.4,
+      "depth": 0.75,
+      "height": 0.8,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/sofa_2seater_compact.png",
+      "model_3d": "/furniture/apartment/3d/sofa_2seater_compact.png"
+    },
+    {
+      "furniture_id": "sofa_bed_convertible",
+      "category": "sofa",
+      "label": "Convertible Sofa Bed",
+      "width": 1.8,
+      "depth": 0.9,
+      "height": 0.85,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/sofa_bed_convertible.png",
+      "model_3d": "/furniture/apartment/3d/sofa_bed_convertible.png"
+    },
+    {
+      "furniture_id": "coffee_table_round",
+      "category": "table",
+      "label": "Round Coffee Table",
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/coffee_table_round.png",
+      "model_3d": "/furniture/apartment/3d/coffee_table_round.png"
+    },
+    {
+      "furniture_id": "coffee_table_nesting",
+      "category": "table",
+      "label": "Nesting Coffee Table Set",
+      "width": 0.7,
+      "depth": 0.5,
+      "height": 0.45,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/coffee_table_nesting.png",
+      "model_3d": "/furniture/apartment/3d/coffee_table_nesting.png"
+    },
+    {
+      "furniture_id": "dining_table_foldable",
+      "category": "table",
+      "label": "Foldable Dining Table",
+      "width": 0.8,
+      "depth": 0.6,
+      "height": 0.75,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/dining_table_foldable.png",
+      "model_3d": "/furniture/apartment/3d/dining_table_foldable.png"
+    },
+    {
+      "furniture_id": "dining_table_wall_mounted",
+      "category": "table",
+      "label": "Wall-Mounted Drop-leaf Table",
+      "width": 0.7,
+      "depth": 0.5,
+      "height": 0.75,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/dining_table_wall_mounted.png",
+      "model_3d": "/furniture/apartment/3d/dining_table_wall_mounted.png"
+    },
+    {
+      "furniture_id": "wardrobe_sliding",
+      "category": "storage",
+      "label": "Sliding Door Wardrobe",
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/wardrobe_sliding.png",
+      "model_3d": "/furniture/apartment/3d/wardrobe_sliding.png"
+    },
+    {
+      "furniture_id": "wardrobe_corner",
+      "category": "storage",
+      "label": "Corner Wardrobe",
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/wardrobe_corner.png",
+      "model_3d": "/furniture/apartment/3d/wardrobe_corner.png"
+    },
+    {
+      "furniture_id": "tv_unit_corner",
+      "category": "entertainment",
+      "label": "Corner TV Unit",
+      "width": 1.0,
+      "depth": 0.8,
+      "height": 0.5,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/tv_unit_corner.png",
+      "model_3d": "/furniture/apartment/3d/tv_unit_corner.png"
+    },
+    {
+      "furniture_id": "study_desk_foldable",
+      "category": "desk",
+      "label": "Foldable Study Desk",
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/study_desk_foldable.png",
+      "model_3d": "/furniture/apartment/3d/study_desk_foldable.png"
+    },
+    {
+      "furniture_id": "room_divider_shelf",
+      "category": "storage",
+      "label": "Room Divider Shelf",
+      "width": 1.0,
+      "depth": 0.35,
+      "height": 1.5,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/room_divider_shelf.png",
+      "model_3d": "/furniture/apartment/3d/room_divider_shelf.png"
+    },
+    {
+      "furniture_id": "console_table_entry",
+      "category": "table",
+      "label": "Entryway Console Table",
+      "width": 1.2,
+      "depth": 0.35,
+      "height": 0.8,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/console_table_entry.png",
+      "model_3d": "/furniture/apartment/3d/console_table_entry.png"
+    },
+    {
+      "furniture_id": "shoe_rack_bench",
+      "category": "storage",
+      "label": "Shoe Rack with Bench",
+      "width": 0.9,
+      "depth": 0.35,
+      "height": 0.45,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/shoe_rack_bench.png",
+      "model_3d": "/furniture/apartment/3d/shoe_rack_bench.png"
+    },
+    {
+      "furniture_id": "desk_wall_mounted_fold",
+      "category": "desk",
+      "label": "Wall-Mounted Folding Desk",
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "rotatable": false,
+      "image_2d": "/furniture/apartment/2d/desk_wall_mounted_fold.png",
+      "model_3d": "/furniture/apartment/3d/desk_wall_mounted_fold.png"
+    },
+    {
+      "furniture_id": "sofa_bed_compact",
+      "category": "sofa",
+      "label": "Compact Sofa Bed",
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.85,
+      "rotatable": true,
+      "image_2d": "/furniture/apartment/2d/sofa_bed_compact.png",
+      "model_3d": "/furniture/apartment/3d/sofa_bed_compact.png"
+    }
+  ]
+}
