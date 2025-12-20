@@ -1,32 +1,30 @@
 # Integrated Home Design & Planning Platform
 
 ## Project Overview
-This project is a web-based AI-assisted home design platform that supports users from early land analysis to detailed interior and exterior layout planning. The system integrates multiple intelligent modules to assist users in evaluating design feasibility, space efficiency, and compliance with architectural and cultural constraints.
+This is a web-based tool designed to help users plan their dream home from the ground up—literally. It takes you from analyzing a raw piece of land all the way to detailed interior and exterior planning. The idea is to combine feasibility checks, space optimization, and even rule validation (like Vastu) into one smooth workflow.
 
-The system is modular, meaning each component can work independently or as part of a full workflow.
+You can use each part of this system on its own, or go through the full flow.
 
-## Modules
+**Land Analysis & Optimization**
+First, we look at the land itself. You feed in the dimensions or a survey plan, and the system checks local regulations—like setbacks and buildable area limits—to figure out exactly how much space you can actually use. It then generates a layout that maximizes that potential.
 
-### 1. Land Rules & Regulation Analysis + Land Optimization
-This component accepts land dimensions or a survey plan and evaluates compliance with building regulations such as setbacks and usable area limits. Based on these constraints, it calculates the usable land area and generates land or floor-plan-ready layouts. The output is structured JSON data containing land polygons, room boundaries, and constraints.
+**Interior Space Optimization**
+This is the core of the project. You give it a room shape, add doors and windows, and list the furniture you want. The system then uses a constraint-based optimizer (not AI/ML, but pure logic) to arrange everything perfectly. It ensures:
+- Furniture doesn't overlap
+- There's enough walking space
+- The room feels balanced and practical
 
-### 2. Interior Space Optimization (Core Component)
-This module receives room geometry (polygon), doors, windows, and a list of user-selected furniture items. Each furniture item has default dimensions (width, depth, height), but users can optionally modify these dimensions before optimization. A constraint-based optimization algorithm is used to place furniture inside the room while ensuring:
-- No furniture overlaps
-- Minimum walkway and clearance requirements
-- Efficient space utilization
+You get a 2D plan, a 3D view, and even an AR visualization to see how it looks.
 
-The output includes optimized furniture positions (JSON), KPI scores (free space, walkway, clearance), and visual outputs in 2D (top view), 3D, and AR modes.
+**Exterior Space Optimization**
+Just like the interior, we optimize the outdoors too. Gardens, parking spots, pathways—the system arranges them within your boundaries while keeping everything accessible and looking good.
 
-*Note: Machine learning is not used to generate layouts. Optimization algorithms are the core engine.*
-
-### 3. Exterior Space Optimization
-This module applies similar optimization logic to outdoor spaces such as gardens, parking areas, pathways, and entrances. It optimizes object placement within exterior boundaries while maintaining accessibility and spacing rules.
-
-### 4. Vastu Compliance Detection
-This module performs rule-based validation to check whether the generated layouts comply with predefined Vastu principles. It only detects and reports compliance or non-compliance. It does not modify or correct the layout.
+**Vastu Compliance**
+For those who follow Vastu Shastra, there's a built-in checker. It scans your generated layout and lets you know if it follows the rules. It won't move things for you, but it'll tell you what's right and what might need a tweak.
 
 ## System Architecture
+
+Here is how the different parts of the system talk to each other:
 
 ```mermaid
 graph TD
@@ -52,56 +50,59 @@ graph TD
     Frontend -->|Load 3D Models/Images| Storage
 ```
 
-- **Frontend**: React (Vite) web application for UI, user interaction, and 2D/3D/AR visualization.
-- **Backend**: FastAPI services that handle optimization logic, validation, and data processing.
-- **Database**: Firebase Firestore for storing users, projects, layouts, and configuration data.
-- **Storage**: Firebase Storage for furniture icons, images, and 3D models.
-
 ## Dependencies
 
+We've kept the tech stack modern and efficient. Here is the full list of what we're using:
+
 ### Frontend
-- **Core**: `react`, `react-dom`, `vite`
-- **Routing**: `react-router-dom`
-- **State/API**: `axios`, `firebase`
-- **Visualization**: `three`, `@react-three/fiber`, `@react-three/drei`, `konva`, `react-konva`
-- **UI/Animation**: `framer-motion`, `lucide-react`
+Built with **React** and **Vite**.
+- **Core Framework:** `react`, `react-dom`, `vite`
+- **Routing:** `react-router-dom`
+- **State & API:** `axios`, `firebase`
+- **3D & Visualization:**
+  - `three`
+  - `@react-three/fiber`
+  - `@react-three/drei`
+  - `konva`
+  - `react-konva`
+- **UI & Animation:** `framer-motion`, `lucide-react`
 
 ### Backend
-- **Framework**: `fastapi`, `uvicorn[standard]`
-- **Database**: `firebase-admin`
-- **Data Processing**: `numpy`, `pandas`
-- **Utilities**: `pydantic`, `pydantic-settings`, `python-dotenv`, `httpx`
+Powered by **Python** and **FastAPI**.
+- **Web Framework:** `fastapi`, `uvicorn[standard]`
+- **Database & Auth:** `firebase-admin`
+- **Data Processing:** `numpy`, `pandas`
+- **Utilities:** `pydantic`, `pydantic-settings`, `python-dotenv`, `httpx`
 
-## Getting Started
+## Project History
+The full development history, including all changes and updates, is maintained in this repository's Git history. You can view the commit logs to see how the project has evolved over time.
 
-### Prerequisites
-- Node.js (v18+ recommended)
-- Python (v3.9+ recommended)
+## How to Run It
 
-### Installation
+**Prerequisites**
+You'll need Node.js (v18+) and Python (v3.9+) installed.
 
-1.  **Clone the repository**
+**Installation**
+
+1.  **Clone the repo**
     ```bash
     git clone <repository-url>
     ```
 
-2.  **Frontend Setup**
+2.  **Start the Frontend**
+    Go into the `frontend` folder, install the dependencies, and start the dev server:
     ```bash
     cd frontend
     npm install
     npm run dev
     ```
 
-3.  **Backend Setup**
+3.  **Start the Backend**
+    Head over to the `backend` folder. It's best to use a virtual environment:
     ```bash
     cd backend
-    # Create virtual environment (optional but recommended)
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    
-    # Install dependencies
+    source venv/bin/activate  # or venv\Scripts\activate on Windows
     pip install -r requirements.txt
-    
-    # Run server
     uvicorn app.main:app --reload
     ```
