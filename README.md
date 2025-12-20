@@ -37,19 +37,6 @@ Built with **React** and **Vite**.
 - **Core Framework:** `react`, `react-dom`, `vite`
 - **Routing:** `react-router-dom`
 - **State & API:** `axios`, `firebase`
-- **3D & Visualization:**
-  - `three`
-  - `@react-three/fiber`
-  - `@react-three/drei`
-  - `konva`
-  - `react-konva`
-- **UI & Animation:** `framer-motion`, `lucide-react`
-
-### Backend
-Powered by **Python** and **FastAPI**.
-- **Web Framework:** `fastapi`, `uvicorn[standard]`
-- **Database & Auth:** `firebase-admin`
-- **Data Processing:** `numpy`, `pandas`
 - **Utilities:** `pydantic`, `pydantic-settings`, `python-dotenv`, `httpx`
 
 ## Project History
