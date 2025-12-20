@@ -26,29 +26,7 @@ For those who follow Vastu Shastra, there's a built-in checker. It scans your ge
 
 Here is how the different parts of the system talk to each other:
 
-```mermaid
-graph TD
-    User[User] -->|Interacts with| Frontend[Frontend (React + Vite)]
-    
-    subgraph "Frontend Layer"
-        Frontend
-    end
-    
-    subgraph "Backend Layer"
-        Backend[Backend (FastAPI)]
-    end
-    
-    subgraph "Data & Storage Layer"
-        Firestore[(Firebase Firestore)]
-        Storage[(Firebase Storage)]
-    end
-    
-    Frontend -->|API Requests| Backend
-    Frontend -->|Direct Access (Auth/Data)| Firestore
-    Backend -->|Optimization Logic & Validation| Firestore
-    Backend -->|Store/Retrieve Assets| Storage
-    Frontend -->|Load 3D Models/Images| Storage
-```
+![System Architecture](assets/architecture_diagram.png)
 
 ## Dependencies
 
