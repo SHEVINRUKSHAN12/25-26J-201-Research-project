@@ -13,7 +13,7 @@ The platform is intended to support planning, evaluation, and visualization, rat
 The system consists of four main functional modules, each developed by a designated team member.
 
 ### 1️⃣ Land Rules & Regulations Analysis with Land Optimization
-**Developer:** Sunkalpani S M D R — IT2291499
+**Researcher & Developer:** Sunkalpani S M D R — IT2291499
 
 This module analyzes land dimensions or survey plans against applicable building rules and regulations such as setbacks, coverage limits, and usable area constraints. Based on these constraints, it identifies the buildable area and produces optimized, layout-ready land data.
 
@@ -24,7 +24,7 @@ This module analyzes land dimensions or survey plans against applicable building
 - Optimized land layout generation
 
 ### 2️⃣ Vastu Compliance Detection
-**Developer:** Dinetha K A V — IT22924278
+**Researcher & Developer:** Dinetha K A V — IT22924278
 
 This module evaluates generated layouts against predefined Vastu principles. It performs rule-based compliance detection only and does not modify or correct layouts. The system reports whether a design complies with Vastu guidelines and highlights any violations.
 
@@ -34,7 +34,7 @@ This module evaluates generated layouts against predefined Vastu principles. It 
 - Automatic layout correction
 
 ### 3️⃣ Interior Space Optimization
-**Developer:** Rathnasinghe S. J. R — IT22908124
+**Researcher & Developer:** Rathnasinghe S. J. R — IT22908124
 
 It accepts room geometry (from land optimization or manual input), along with doors, windows, and user-selected furniture items. Furniture items are provided with default dimensions, which users may optionally customize.
 
@@ -48,7 +48,7 @@ The system optimizes furniture placement to ensure efficient space utilization, 
 - Visualization in 2D, 3D, and AR formats
 
 ### 4️⃣ Exterior Space Optimization
-**Developer:** Hansika J A J — IT22346018
+**Researcher & Developer:** Hansika J A J — IT22346018
 
 This module focuses on optimizing outdoor spaces such as gardens, parking areas, walkways, and access paths. It ensures balanced space usage and accessibility within the available exterior boundaries.
 
