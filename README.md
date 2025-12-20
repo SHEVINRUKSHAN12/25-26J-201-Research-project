@@ -65,28 +65,51 @@ Here is how the different parts of the system talk to each other:
 
 ## Dependencies
 
-We've kept the tech stack modern and efficient. Here is the full list of what we're using:
+Here is the complete list of libraries and tools powering the project:
 
-### Frontend
-Built with **React** and **Vite**.
-- **Core Framework:** `react`, `react-dom`, `vite`
-- **Routing:** `react-router-dom`
-- **State & API:** `axios`, `firebase`
-- **3D & Visualization:**
-  - `three`
-  - `@react-three/fiber`
-  - `@react-three/drei`
-  - `konva`
-  - `react-konva`
-- **UI & Animation:** `framer-motion`, `lucide-react`
-- **Dev Tools:** `eslint`
+### Frontend (React + Vite)
+**Core & Architecture**
+- `react`, `react-dom`: UI Library
+- `vite`: Build tool and dev server
+- `react-router-dom`: Routing
 
-### Backend
-Powered by **Python** and **FastAPI**.
-- **Web Framework:** `fastapi`, `uvicorn[standard]`
-- **Database & Auth:** `firebase-admin`
-- **Data Processing:** `numpy`, `pandas`
-- **Utilities:** `pydantic`, `pydantic-settings`, `python-dotenv`, `httpx`
+**State, API & Backend Integration**
+- `axios`: HTTP Client
+- `firebase`: Authentication & Database SDK
+
+**3D, Graphics & Visualization**
+- `three`: Core 3D library
+- `@react-three/fiber`: React renderer for Three.js
+- `@react-three/drei`: Helpers for R3F
+- `konva`: 2D Canvas library
+- `react-konva`: React bindings for Konva
+
+**UI & Animation**
+- `framer-motion`: Animation library
+- `lucide-react`: Icon set
+
+**Development & Build Tools**
+- `eslint`, `@eslint/js`, `globals`: Linting
+- `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`: React-specific linting rules
+- `@vitejs/plugin-react`: Vite React plugin
+- `@types/react`, `@types/react-dom`: TypeScript definitions
+
+### Backend (FastAPI)
+**Core Framework**
+- `fastapi`: Web framework
+- `uvicorn[standard]`: ASGI server
+
+**Database & Authentication**
+- `firebase-admin`: Firebase Admin SDK
+
+**Data Processing & Math**
+- `numpy`: Numerical computing
+- `pandas`: Data manipulation
+
+**Utilities & Configuration**
+- `pydantic`, `pydantic-settings`: Data validation & settings
+- `python-dotenv`: Environment variable management
+- `httpx`: Async HTTP client
 
 ## Project History
 The full development history, including all changes and updates, is maintained in this repository's Git history. You can view the commit logs to see how the project has evolved over time.
