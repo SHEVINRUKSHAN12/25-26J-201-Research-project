@@ -1,26 +1,61 @@
 # Integrated Home Design & Planning Platform
 
-## Project Overview
-This is a web-based tool designed to help users plan their dream home from the ground up—literally. It takes you from analyzing a raw piece of land all the way to detailed interior and exterior planning. The idea is to combine feasibility checks, space optimization, and even rule validation (like Vastu) into one smooth workflow.
+## 📌 Project Overview
 
-You can use each part of this system on its own, or go through the full flow.
+The **Integrated Home Design & Planning Platform** is a web-based decision-support system designed to assist users during the early stages of residential planning. The system supports users from initial land evaluation through interior and exterior space planning, combining feasibility analysis, spatial optimization, and rule-based validation into a unified workflow.
 
-**Land Analysis & Optimization**
-First, we look at the land itself. You feed in the dimensions or a survey plan, and the system checks local regulations—like setbacks and buildable area limits—to figure out exactly how much space you can actually use. It then generates a layout that maximizes that potential.
+Each module can be used independently or as part of a complete end-to-end process, allowing flexibility based on user needs.
 
-**Interior Space Optimization**
-This is the core of the project. You give it a room shape, add doors and windows, and list the furniture you want. The system then uses a constraint-based optimizer (not AI/ML, but pure logic) to arrange everything perfectly. It ensures:
-- Furniture doesn't overlap
-- There's enough walking space
-- The room feels balanced and practical
+The platform is intended to support planning, evaluation, and visualization, rather than replacing professional architectural design.
 
-You get a 2D plan, a 3D view, and even an AR visualization to see how it looks.
+## 🧩 System Modules & Responsibilities
 
-**Exterior Space Optimization**
-Just like the interior, we optimize the outdoors too. Gardens, parking spots, pathways—the system arranges them within your boundaries while keeping everything accessible and looking good.
+The system consists of four main functional modules, each developed by a designated team member.
 
-**Vastu Compliance**
-For those who follow Vastu Shastra, there's a built-in checker. It scans your generated layout and lets you know if it follows the rules. It won't move things for you, but it'll tell you what's right and what might need a tweak.
+### 1️⃣ Land Rules & Regulations Analysis with Land Optimization
+**Developer:** Sunkalpani S M D R — IT2291499
+
+This module analyzes land dimensions or survey plans against applicable building rules and regulations such as setbacks, coverage limits, and usable area constraints. Based on these constraints, it identifies the buildable area and produces optimized, layout-ready land data.
+
+**Key functions:**
+- Land feasibility analysis
+- Regulation compliance checking
+- Usable land area identification
+- Optimized land layout generation
+
+### 2️⃣ Vastu Compliance Detection
+**Developer:** Dinetha K A V — IT22924278
+
+This module evaluates generated layouts against predefined Vastu principles. It performs rule-based compliance detection only and does not modify or correct layouts. The system reports whether a design complies with Vastu guidelines and highlights any violations.
+
+**Key functions:**
+- Directional and spatial validation
+- Compliance / non-compliance reporting
+- Automatic layout correction
+
+### 3️⃣ Interior Space Optimization
+**Developer:** Rathnasinghe S. J. R — IT22908124
+
+It accepts room geometry (from land optimization or manual input), along with doors, windows, and user-selected furniture items. Furniture items are provided with default dimensions, which users may optionally customize.
+
+The system optimizes furniture placement to ensure efficient space utilization, accessibility, and functional layout design.
+
+**Key functions:**
+- Constraint-based furniture placement
+- Collision and overlap avoidance
+- Walkway and clearance management
+- KPI-based layout evaluation
+- Visualization in 2D, 3D, and AR formats
+
+### 4️⃣ Exterior Space Optimization
+**Developer:** Hansika J A J — IT22346018
+
+This module focuses on optimizing outdoor spaces such as gardens, parking areas, walkways, and access paths. It ensures balanced space usage and accessibility within the available exterior boundaries.
+
+**Key functions:**
+- Outdoor layout planning
+- Accessibility-aware object placement
+- Space-efficient exterior design
 
 ## System Architecture
 
