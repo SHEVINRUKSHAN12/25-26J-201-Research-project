@@ -65,7 +65,7 @@ You'll need Node.js (v18+) and Python (v3.9+) installed.
 
 1.  **Clone the repo**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/SHEVINRUKSHAN12/25-26J-201-Research-project.git
     ```
 
 2.  **Start the Frontend**
