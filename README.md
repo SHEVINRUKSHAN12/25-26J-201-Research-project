@@ -34,7 +34,7 @@ This module evaluates generated layouts against predefined Vastu principles. It 
 - Automatic layout correction
 
 ### 3️⃣ Interior Space Optimization
-**Researcher & Developer:** Rathnasinghe S. J. R — IT22908124
+**Researcher & Developer:** Rathnasinghe S J R — IT22908124
 
 It accepts room geometry (from land optimization or manual input), along with doors, windows, and user-selected furniture items. Furniture items are provided with default dimensions, which users may optionally customize.
 
