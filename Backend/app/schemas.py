@@ -178,6 +178,3 @@ class HealthResponse(BaseModel):
     status: str = Field(..., description="Service status: 'healthy' or 'unhealthy'")
     version: str = Field(..., description="API version")
     timestamp: str = Field(..., description="Current timestamp")
-# Reviewed
-
-# Validated
