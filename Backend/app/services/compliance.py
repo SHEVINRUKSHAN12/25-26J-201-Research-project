@@ -246,6 +246,3 @@ def generate_summary_explanation(rule_breakdown: List[RuleResult], total_score: 
         summary += f"Full compliance in {', '.join([f.rule_name for f in full_compliances])}. "
     
     return summary.strip()
-# Reviewed
-
-# Validated
