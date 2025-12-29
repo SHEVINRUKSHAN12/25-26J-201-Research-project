@@ -65,6 +65,3 @@ def get_direction_from_angle(angle_deg: float) -> Direction:
         return Direction.NW
     else:
         return Direction.N  # Fallback
-# Reviewed
-
-# Validated
