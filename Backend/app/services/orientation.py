@@ -68,6 +68,3 @@ class OrientationService:
     def get_current_angle(self) -> float:
         """Get current compass angle"""
         return self.manual_angle if self.override_automatic else 0.0
-# Reviewed
-
-# Validated
