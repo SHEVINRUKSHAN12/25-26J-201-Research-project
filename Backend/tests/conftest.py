@@ -81,3 +81,4 @@ def mock_bedroom_rule():
         "partial_allowed": True,
         "explanation_template": "Bedrooms should be in {preferred} for restful sleep. {correct_count}/{total_count} bedrooms compliant. Compliance: {compliance_level}."
     }
+# Reviewed
