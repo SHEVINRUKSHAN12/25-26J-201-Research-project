@@ -295,3 +295,5 @@ def get_supported_room_types() -> List[str]:
     """
     return sorted(list(VALID_ROOM_TYPES))
 # Reviewed
+
+# Validated
