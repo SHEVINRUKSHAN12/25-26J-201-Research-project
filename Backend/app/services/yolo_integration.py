@@ -294,6 +294,3 @@ def get_supported_room_types() -> List[str]:
     Get list of supported room types for validation.
     """
     return sorted(list(VALID_ROOM_TYPES))
-# Reviewed
-
-# Validated
