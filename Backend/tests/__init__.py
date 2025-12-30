@@ -1,1 +1,1 @@
-# Initial structure
+# Tests for Floor Plan Intelligence System Backend
