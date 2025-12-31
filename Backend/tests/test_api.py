@@ -410,3 +410,5 @@ class TestFloorPlanAPI:
         response = self.client.post("/api/v1/analyze/yolo", json=request_data)
         # Should handle gracefully or return validation error
         assert response.status_code in [200, 422]
+
+# Reviewed
