@@ -126,3 +126,4 @@ class TestRoomDirectionCalculation:
         directions_0 = [rd.direction for rd in result_0]
         directions_90 = [rd.direction for rd in result_90]
         assert directions_0 != directions_90  # Should differ due to rotation
+# Reviewed
