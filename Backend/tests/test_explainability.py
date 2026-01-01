@@ -357,6 +357,3 @@ class TestExplainabilityService:
         assert "Bedroom" in explanation
         assert "Kitchen" in explanation
         assert len(explanation) > 100  # Should be comprehensive
-# Reviewed
-
-# Validated
