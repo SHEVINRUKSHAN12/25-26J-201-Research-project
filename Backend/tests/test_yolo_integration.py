@@ -227,3 +227,5 @@ class TestYOLOIntegrationService:
         # Should not translate unknown classes
         assert len(result.room_detections) == 0
 # Reviewed
+
+# Validated
