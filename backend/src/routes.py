@@ -1,0 +1,2 @@
+
+# Standardized responses
