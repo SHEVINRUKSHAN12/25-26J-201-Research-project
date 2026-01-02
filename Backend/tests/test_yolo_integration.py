@@ -226,6 +226,3 @@ class TestYOLOIntegrationService:
         result = service.translate_detections(yolo_detections)
         # Should not translate unknown classes
         assert len(result.room_detections) == 0
-# Reviewed
-
-# Validated
