@@ -1,0 +1,105 @@
+{
+  "room_id": "dining_room_932",
+  "room_type": "dining_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.13,
+      0
+    ],
+    [
+      4.13,
+      4.82
+    ],
+    [
+      0,
+      4.82
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.97,
+      "offset": 0.7,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.97,
+      "offset": 3.01,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.48,
+      "offset": 1.93,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_4_wood__1",
+      "furniture_id": "dining_table_4_wood",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__1",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__2",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__3",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__4",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "sideboard__1",
+      "furniture_id": "sideboard",
+      "rotatable": false,
+      "width": 1.5,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.61,
+    "priority": "space_efficiency"
+  }
+}

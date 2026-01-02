@@ -1,0 +1,72 @@
+{
+  "room_id": "apartment_395",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.99,
+      0
+    ],
+    [
+      4.99,
+      3.07
+    ],
+    [
+      0,
+      3.07
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.96,
+      "offset": 2.67,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.34,
+      "offset": 2.21,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_bed_compact__1",
+      "furniture_id": "sofa_bed_compact",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "desk_wall_mounted_fold__1",
+      "furniture_id": "desk_wall_mounted_fold",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_corner__1",
+      "furniture_id": "wardrobe_corner",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.74,
+    "priority": "space_efficiency"
+  }
+}

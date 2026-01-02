@@ -1,0 +1,87 @@
+{
+  "room_id": "living_room_651",
+  "room_type": "living_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.18,
+      0
+    ],
+    [
+      5.18,
+      5.86
+    ],
+    [
+      0,
+      5.86
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.8,
+      "offset": 2.59,
+      "kind": "door"
+    },
+    {
+      "wall": "left",
+      "width": 0.9,
+      "offset": 2.4,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.17,
+      "offset": 1.88,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_l_shape_modern__1",
+      "furniture_id": "sofa_l_shape_modern",
+      "rotatable": true,
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "ottoman_round__1",
+      "furniture_id": "ottoman_round",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall__1",
+      "furniture_id": "tv_unit_wall",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.35,
+      "height": 1.8,
+      "customized": false
+    },
+    {
+      "instance_id": "plant_indoor_large__1",
+      "furniture_id": "plant_indoor_large",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 1.2,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.93,
+    "priority": "aesthetics"
+  }
+}

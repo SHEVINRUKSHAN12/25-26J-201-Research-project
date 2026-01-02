@@ -1,0 +1,105 @@
+{
+  "room_id": "bedroom_313",
+  "room_type": "bedroom",
+  "units": "meters",
+  "size_category": "large",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.42,
+      0
+    ],
+    [
+      4.42,
+      4.82
+    ],
+    [
+      0,
+      4.82
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.83,
+      "offset": 1.37,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.2,
+      "offset": 2.54,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_queen_72x60__1",
+      "furniture_id": "bed_queen_72x60",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.52,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__2",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "study_desk__1",
+      "furniture_id": "study_desk",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "wardrobe": "against_longest_wall_0.6m_clearance",
+    "dressing_table": "near_window_for_light"
+  },
+  "user_goals": {
+    "min_walkway": 0.64,
+    "priority": "space_efficiency"
+  }
+}

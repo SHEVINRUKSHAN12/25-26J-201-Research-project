@@ -1,0 +1,87 @@
+{
+  "room_id": "living_room_446",
+  "room_type": "living_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      6.3,
+      0
+    ],
+    [
+      6.3,
+      3.69
+    ],
+    [
+      0,
+      3.69
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.83,
+      "offset": 0.93,
+      "kind": "door"
+    },
+    {
+      "wall": "bottom",
+      "width": 0.85,
+      "offset": 4.12,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.22,
+      "offset": 2.86,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_recliner_1seater__1",
+      "furniture_id": "sofa_recliner_1seater",
+      "rotatable": true,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 1.0,
+      "customized": false
+    },
+    {
+      "instance_id": "sofa_recliner_1seater__2",
+      "furniture_id": "sofa_recliner_1seater",
+      "rotatable": true,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 1.0,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table_round__1",
+      "furniture_id": "side_table_round",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "floor_lamp_modern__1",
+      "furniture_id": "floor_lamp_modern",
+      "rotatable": true,
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 1.6,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.94,
+    "priority": "space_efficiency"
+  }
+}

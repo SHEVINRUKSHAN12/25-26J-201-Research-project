@@ -1,0 +1,101 @@
+{
+  "room_id": "dining_room_272",
+  "room_type": "dining_room",
+  "units": "meters",
+  "size_category": "small",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.28,
+      0
+    ],
+    [
+      3.28,
+      3.35
+    ],
+    [
+      0,
+      3.35
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.81,
+      "offset": 0.55,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 0.93,
+      "offset": 0.67,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.34,
+      "offset": 0.36,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_4_glass__1",
+      "furniture_id": "dining_table_4_glass",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__1",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__2",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__3",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__4",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.95,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "table": "centered_in_room",
+    "chairs": "0.6m_clearance_behind_each"
+  },
+  "user_goals": {
+    "min_walkway": 0.72,
+    "priority": "space_efficiency"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "room_id": "bathroom_329",
+  "room_type": "bathroom",
+  "units": "meters",
+  "size_category": "small",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      1.75,
+      0
+    ],
+    [
+      1.75,
+      2.09
+    ],
+    [
+      0,
+      2.09
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.79,
+      "offset": 0.57,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 0.41,
+      "offset": 0.38,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_wall_hung__1",
+      "furniture_id": "commode_wall_hung",
+      "rotatable": false,
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_wall_hung__1",
+      "furniture_id": "vanity_wall_hung",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.45,
+      "height": 0.5,
+      "customized": false
+    },
+    {
+      "instance_id": "mirror_cabinet__1",
+      "furniture_id": "mirror_cabinet",
+      "rotatable": false,
+      "width": 0.5,
+      "depth": 0.15,
+      "height": 0.7,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "commode": "min_0.4m_from_side_walls",
+    "shower": "corner_placement_preferred",
+    "vanity": "near_door_accessible"
+  },
+  "user_goals": {
+    "min_walkway": 0.61,
+    "priority": "aesthetics"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "room_id": "dining_room_755",
+  "room_type": "dining_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.08,
+      0
+    ],
+    [
+      3.08,
+      3.38
+    ],
+    [
+      0,
+      3.38
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.89,
+      "offset": 0.56,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.81,
+      "offset": 0.79,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.26,
+      "offset": 0.58,
+      "kind": "window"
+    },
+    {
+      "wall": "left",
+      "width": 1.41,
+      "offset": 0.48,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_6_glass__1",
+      "furniture_id": "dining_table_6_glass",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__1",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__2",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__3",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__4",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__5",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_upholstered__6",
+      "furniture_id": "dining_chair_upholstered",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.95,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.82,
+    "priority": "space_efficiency"
+  }
+}

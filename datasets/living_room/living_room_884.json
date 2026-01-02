@@ -1,0 +1,78 @@
+{
+  "room_id": "living_room_884",
+  "room_type": "living_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      6.95,
+      0
+    ],
+    [
+      6.95,
+      4.29
+    ],
+    [
+      0,
+      4.29
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.9,
+      "offset": 2.7,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.03,
+      "offset": 1.18,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.1,
+      "offset": 4.96,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_l_shape_modern__1",
+      "furniture_id": "sofa_l_shape_modern",
+      "rotatable": true,
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_glass__1",
+      "furniture_id": "coffee_table_glass",
+      "rotatable": true,
+      "width": 1.0,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall__1",
+      "furniture_id": "tv_unit_wall",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.35,
+      "height": 1.8,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.68,
+    "priority": "aesthetics"
+  }
+}

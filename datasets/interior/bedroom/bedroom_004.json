@@ -1,0 +1,78 @@
+{
+  "room_id": "bedroom_004",
+  "room_type": "bedroom",
+  "units": "meters",
+  "size_category": "small",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.16,
+      0
+    ],
+    [
+      3.16,
+      3.02
+    ],
+    [
+      0,
+      3.02
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.83,
+      "offset": 1.9,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.32,
+      "offset": 0.21,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_single_72x36__1",
+      "furniture_id": "bed_single_72x36",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 0.91,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_small__1",
+      "furniture_id": "wardrobe_small",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "wardrobe": "against_longest_wall_0.6m_clearance",
+    "dressing_table": "near_window_for_light"
+  },
+  "user_goals": {
+    "min_walkway": 0.78,
+    "priority": "aesthetics"
+  }
+}

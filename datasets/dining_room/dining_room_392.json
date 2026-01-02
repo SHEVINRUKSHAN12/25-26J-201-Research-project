@@ -1,0 +1,123 @@
+{
+  "room_id": "dining_room_392",
+  "room_type": "dining_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.27,
+      0
+    ],
+    [
+      3.27,
+      3.13
+    ],
+    [
+      0,
+      3.13
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.82,
+      "offset": 1.21,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.95,
+      "offset": 0.71,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 1.23,
+      "offset": 1.4,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_6_wood__1",
+      "furniture_id": "dining_table_6_wood",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__1",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__2",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__3",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__4",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__5",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__6",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "sideboard__1",
+      "furniture_id": "sideboard",
+      "rotatable": false,
+      "width": 1.5,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.86,
+    "priority": "aesthetics"
+  }
+}

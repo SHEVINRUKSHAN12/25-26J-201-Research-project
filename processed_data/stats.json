@@ -1,0 +1,40 @@
+{
+  "total_scenarios": 5300,
+  "by_room_type": {
+    "living_room": 600,
+    "bedroom": 600,
+    "apartment_kitchen": 500,
+    "apartment_living_room": 500,
+    "bathroom": 500,
+    "apartment_bedroom": 500,
+    "apartment_studio": 500,
+    "kitchen": 600,
+    "dining_room": 500,
+    "apartment_bathroom": 500
+  },
+  "by_property_type": {
+    "house": 2800,
+    "apartment": 2500
+  },
+  "by_polygon_type": {
+    "rectangle": 5000,
+    "t_shaped": 113,
+    "l_shaped": 92,
+    "irregular": 95
+  },
+  "room_area": {
+    "min": 1.8392,
+    "max": 44.3985,
+    "avg": 13.88
+  },
+  "num_furniture": {
+    "min": 2,
+    "max": 9,
+    "avg": 4.42
+  },
+  "space_utilization": {
+    "min": 0.06118296226363211,
+    "max": 0.5703566768160071,
+    "avg": 0.22
+  }
+}

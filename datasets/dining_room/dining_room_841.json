@@ -1,0 +1,105 @@
+{
+  "room_id": "dining_room_841",
+  "room_type": "dining_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.37,
+      0
+    ],
+    [
+      4.37,
+      3.83
+    ],
+    [
+      0,
+      3.83
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.9,
+      "offset": 2.2,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.84,
+      "offset": 2.7,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.07,
+      "offset": 1.7,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_4_wood__1",
+      "furniture_id": "dining_table_4_wood",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__1",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__2",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__3",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_chair_wood__4",
+      "furniture_id": "dining_chair_wood",
+      "rotatable": true,
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "sideboard__1",
+      "furniture_id": "sideboard",
+      "rotatable": false,
+      "width": 1.5,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.91,
+    "priority": "aesthetics"
+  }
+}

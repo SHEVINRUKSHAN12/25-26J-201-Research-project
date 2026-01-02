@@ -1,0 +1,78 @@
+{
+  "room_id": "living_room_922",
+  "room_type": "living_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      6.65,
+      0
+    ],
+    [
+      6.65,
+      6.0
+    ],
+    [
+      0,
+      6.0
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.96,
+      "offset": 2.7,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.41,
+      "offset": 0.66,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.33,
+      "offset": 1.61,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_l_shape_modern__1",
+      "furniture_id": "sofa_l_shape_modern",
+      "rotatable": true,
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_floor__1",
+      "furniture_id": "tv_unit_floor",
+      "rotatable": false,
+      "width": 1.6,
+      "depth": 0.45,
+      "height": 0.5,
+      "customized": false
+    },
+    {
+      "instance_id": "plant_indoor_large__1",
+      "furniture_id": "plant_indoor_large",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 1.2,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.92,
+    "priority": "space_efficiency"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "room_id": "kitchen_089",
+  "room_type": "kitchen",
+  "units": "meters",
+  "size_category": "large",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.62,
+      0
+    ],
+    [
+      3.62,
+      4.11
+    ],
+    [
+      0,
+      4.11
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.82,
+      "offset": 0.6,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.19,
+      "offset": 0.47,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.47,
+      "offset": 0.92,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__2",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__3",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "kitchen_island_storage__1",
+      "furniture_id": "kitchen_island_storage",
+      "rotatable": true,
+      "width": 1.5,
+      "depth": 0.9,
+      "height": 0.9,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "pantry": "along_walls_work_triangle",
+    "island": "center_1m_clearance_all_sides"
+  },
+  "user_goals": {
+    "min_walkway": 0.71,
+    "priority": "aesthetics"
+  }
+}

@@ -1,0 +1,9 @@
+.page-transition {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* Ensure it takes full space but doesn't break layout */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

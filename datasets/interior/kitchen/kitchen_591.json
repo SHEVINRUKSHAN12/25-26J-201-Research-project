@@ -1,0 +1,114 @@
+{
+  "room_id": "apartment_kitchen_091",
+  "room_type": "apartment_kitchen",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "standard",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.4,
+      0
+    ],
+    [
+      2.4,
+      3.12
+    ],
+    [
+      0,
+      3.12
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.83,
+      "offset": 0.23,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.1,
+      "offset": 0.52,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_base_unit__1",
+      "furniture_id": "pantry_base_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.55,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_base_unit__2",
+      "furniture_id": "pantry_base_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.55,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_wall_unit__1",
+      "furniture_id": "pantry_wall_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.35,
+      "height": 0.7,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_wall_unit__2",
+      "furniture_id": "pantry_wall_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.35,
+      "height": 0.7,
+      "customized": false
+    },
+    {
+      "instance_id": "breakfast_bar__1",
+      "furniture_id": "breakfast_bar",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.4,
+      "height": 1.0,
+      "customized": false
+    },
+    {
+      "instance_id": "stool_stackable__1",
+      "furniture_id": "stool_stackable",
+      "rotatable": true,
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 0.65,
+      "customized": false
+    },
+    {
+      "instance_id": "stool_stackable__2",
+      "furniture_id": "stool_stackable",
+      "rotatable": true,
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 0.65,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "pantry": "along_walls_L_or_galley_layout",
+    "breakfast_bar": "peninsula_or_against_wall"
+  },
+  "user_goals": {
+    "min_walkway": 0.57,
+    "priority": "multi_functionality"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "room_id": "apartment_154",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.72,
+      0
+    ],
+    [
+      4.72,
+      3.59
+    ],
+    [
+      0,
+      3.59
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.92,
+      "offset": 0.94,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.01,
+      "offset": 3.21,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.22,
+      "offset": 1.11,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "console_table_entry__1",
+      "furniture_id": "console_table_entry",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.35,
+      "height": 0.8,
+      "customized": false
+    },
+    {
+      "instance_id": "shoe_rack_bench__1",
+      "furniture_id": "shoe_rack_bench",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.35,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "room_divider_shelf__1",
+      "furniture_id": "room_divider_shelf",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.35,
+      "height": 1.5,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.8,
+    "priority": "accessibility"
+  }
+}

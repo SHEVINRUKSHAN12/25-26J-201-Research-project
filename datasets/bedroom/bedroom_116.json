@@ -1,0 +1,72 @@
+{
+  "room_id": "bedroom_116",
+  "room_type": "bedroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.31,
+      0
+    ],
+    [
+      5.31,
+      3.33
+    ],
+    [
+      0,
+      3.33
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.92,
+      "offset": 0.91,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.35,
+      "offset": 1.25,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_queen_72x60__1",
+      "furniture_id": "bed_queen_72x60",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.52,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_small__1",
+      "furniture_id": "wardrobe_small",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.74,
+    "priority": "aesthetics"
+  }
+}

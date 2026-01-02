@@ -1,0 +1,115 @@
+{
+  "room_id": "apartment_studio_121",
+  "room_type": "apartment_studio",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "standard",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.29,
+      0
+    ],
+    [
+      5.29,
+      6.45
+    ],
+    [
+      0,
+      6.45
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.82,
+      "offset": 3.39,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 0.9,
+      "offset": 2.29,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_loft__1",
+      "furniture_id": "bed_loft",
+      "rotatable": false,
+      "width": 1.4,
+      "depth": 2.0,
+      "height": 1.8,
+      "customized": false
+    },
+    {
+      "instance_id": "sofa_2seater_compact__1",
+      "furniture_id": "sofa_2seater_compact",
+      "rotatable": true,
+      "width": 1.4,
+      "depth": 0.75,
+      "height": 0.8,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_round__1",
+      "furniture_id": "coffee_table_round",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall_slim__1",
+      "furniture_id": "tv_unit_wall_slim",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.25,
+      "height": 0.4,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_table_foldable__1",
+      "furniture_id": "dining_table_foldable",
+      "rotatable": true,
+      "width": 0.8,
+      "depth": 0.6,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_kitchenette__1",
+      "furniture_id": "pantry_kitchenette",
+      "rotatable": false,
+      "width": 1.5,
+      "depth": 0.6,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_sliding__1",
+      "furniture_id": "wardrobe_sliding",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed_zone": "separated_from_living_by_divider",
+    "kitchen_zone": "near_entrance_for_ventilation",
+    "living_zone": "central_with_natural_light"
+  },
+  "user_goals": {
+    "min_walkway": 0.56,
+    "priority": "accessibility"
+  }
+}

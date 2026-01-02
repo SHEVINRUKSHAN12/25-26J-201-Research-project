@@ -1,0 +1,93 @@
+{
+  "room_id": "bedroom_487",
+  "room_type": "bedroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.22,
+      0
+    ],
+    [
+      4.22,
+      4.76
+    ],
+    [
+      0,
+      4.76
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.93,
+      "offset": 3.22,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.82,
+      "offset": 3.14,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.0,
+      "offset": 2.21,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.33,
+      "offset": 0.33,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_king_72x72__1",
+      "furniture_id": "bed_king_72x72",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.83,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__2",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.8,
+    "priority": "accessibility"
+  }
+}

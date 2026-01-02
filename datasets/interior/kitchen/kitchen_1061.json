@@ -1,0 +1,95 @@
+{
+  "room_id": "kitchen_1061",
+  "room_type": "kitchen",
+  "polygon_type": "l_shaped",
+  "polygon_description": "L-shaped (top_right)",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.05,
+      0
+    ],
+    [
+      3.05,
+      2.9099999999999997
+    ],
+    [
+      2.03,
+      2.9099999999999997
+    ],
+    [
+      2.03,
+      4.18
+    ],
+    [
+      0,
+      4.18
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.92,
+      "offset": 1.25,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 1.24,
+      "offset": 0.93,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__2",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__3",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_table_4_wood__1",
+      "furniture_id": "dining_table_4_wood",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "complex_shape": "avoid_furniture_in_cut_area",
+    "l_corner": "use_corner_for_storage_or_desk"
+  },
+  "user_goals": {
+    "min_walkway": 0.8,
+    "priority": "space_efficiency"
+  }
+}

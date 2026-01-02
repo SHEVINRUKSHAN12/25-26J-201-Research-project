@@ -1,0 +1,104 @@
+{
+  "room_id": "bedroom_1025",
+  "room_type": "bedroom",
+  "polygon_type": "t_shaped",
+  "polygon_description": "T-shaped",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.85,
+      0
+    ],
+    [
+      3.85,
+      2.9899999999999993
+    ],
+    [
+      5.390000000000001,
+      2.9899999999999993
+    ],
+    [
+      5.390000000000001,
+      4.27
+    ],
+    [
+      0,
+      4.27
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.98,
+      "offset": 0.45,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.12,
+      "offset": 1.68,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_queen_72x60__1",
+      "furniture_id": "bed_queen_72x60",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.52,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__2",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "complex_shape": "avoid_furniture_in_cut_area",
+    "l_corner": "use_corner_for_storage_or_desk"
+  },
+  "user_goals": {
+    "min_walkway": 0.66,
+    "priority": "aesthetics"
+  }
+}

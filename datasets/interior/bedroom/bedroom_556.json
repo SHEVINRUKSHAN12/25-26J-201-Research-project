@@ -1,0 +1,70 @@
+{
+  "room_id": "apartment_bedroom_056",
+  "room_type": "apartment_bedroom",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "compact",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.71,
+      0
+    ],
+    [
+      2.71,
+      3.22
+    ],
+    [
+      0,
+      3.22
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.77,
+      "offset": 0.85,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.14,
+      "offset": 0.39,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_single_storage__1",
+      "furniture_id": "bed_single_storage",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 0.91,
+      "height": 0.6,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_corner__1",
+      "furniture_id": "wardrobe_corner",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "murphy_bed": "against_wall_with_clearance_for_fold",
+    "wardrobe": "near_entrance_or_corner"
+  },
+  "user_goals": {
+    "min_walkway": 0.65,
+    "priority": "aesthetics"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "room_id": "kitchen_098",
+  "room_type": "kitchen",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.45,
+      0
+    ],
+    [
+      4.45,
+      3.29
+    ],
+    [
+      0,
+      3.29
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.85,
+      "offset": 1.31,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.16,
+      "offset": 1.51,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.34,
+      "offset": 2.1,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_classic__1",
+      "furniture_id": "pantry_classic",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "kitchen_island_simple__1",
+      "furniture_id": "kitchen_island_simple",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.75,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "bar_stool_metal__1",
+      "furniture_id": "bar_stool_metal",
+      "rotatable": true,
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "bar_stool_metal__2",
+      "furniture_id": "bar_stool_metal",
+      "rotatable": true,
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.9,
+    "priority": "accessibility"
+  }
+}

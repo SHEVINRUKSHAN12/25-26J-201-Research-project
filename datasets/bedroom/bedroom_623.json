@@ -1,0 +1,84 @@
+{
+  "room_id": "bedroom_623",
+  "room_type": "bedroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.83,
+      0
+    ],
+    [
+      3.83,
+      3.55
+    ],
+    [
+      0,
+      3.55
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.87,
+      "offset": 1.37,
+      "kind": "door"
+    },
+    {
+      "wall": "left",
+      "width": 0.97,
+      "offset": 1.56,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.15,
+      "offset": 1.01,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.17,
+      "offset": 1.28,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_double_72x48__1",
+      "furniture_id": "bed_double_72x48",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.22,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_small__1",
+      "furniture_id": "wardrobe_small",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "study_desk_simple__1",
+      "furniture_id": "study_desk_simple",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.6,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.66,
+    "priority": "aesthetics"
+  }
+}

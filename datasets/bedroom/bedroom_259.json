@@ -1,0 +1,87 @@
+{
+  "room_id": "bedroom_259",
+  "room_type": "bedroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.75,
+      0
+    ],
+    [
+      4.75,
+      3.63
+    ],
+    [
+      0,
+      3.63
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.96,
+      "offset": 2.04,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.83,
+      "offset": 1.9,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 1.5,
+      "offset": 1.4,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_queen_72x60__1",
+      "furniture_id": "bed_queen_72x60",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.52,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "bean_bag_large__1",
+      "furniture_id": "bean_bag_large",
+      "rotatable": true,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 0.8,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.94,
+    "priority": "aesthetics"
+  }
+}

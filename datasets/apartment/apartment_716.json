@@ -1,0 +1,78 @@
+{
+  "room_id": "apartment_716",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.89,
+      0
+    ],
+    [
+      5.89,
+      3.27
+    ],
+    [
+      0,
+      3.27
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.88,
+      "offset": 2.17,
+      "kind": "door"
+    },
+    {
+      "wall": "bottom",
+      "width": 0.91,
+      "offset": 0.32,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.38,
+      "offset": 0.41,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_bed_compact__1",
+      "furniture_id": "sofa_bed_compact",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_round__1",
+      "furniture_id": "coffee_table_round",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_corner__1",
+      "furniture_id": "tv_unit_corner",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.8,
+      "height": 0.5,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.78,
+    "priority": "aesthetics"
+  }
+}

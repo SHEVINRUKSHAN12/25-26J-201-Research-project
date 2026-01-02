@@ -1,0 +1,117 @@
+.research-page {
+    padding-bottom: 4rem;
+}
+
+.research-hero {
+    padding: 6rem 5% 4rem;
+    text-align: center;
+    background: radial-gradient(circle at center, rgba(96, 165, 250, 0.1) 0%, transparent 70%);
+}
+
+.research-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.research-hero .subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.methodology-section {
+    padding: 4rem 0;
+    background: var(--secondary-color);
+}
+
+.methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.methodology-card {
+    background: var(--primary-color);
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.methodology-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-primary);
+}
+
+.icon-box {
+    width: 64px;
+    height: 64px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    margin: 0 auto 1.5rem;
+}
+
+.methodology-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.methodology-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.findings-section {
+    padding: 6rem 0;
+}
+
+.findings-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.findings-list {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.findings-list li {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-primary);
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.findings-list li strong {
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .research-hero h1 {
+        font-size: 2.5rem;
+    }
+}

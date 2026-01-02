@@ -1,0 +1,79 @@
+{
+  "room_id": "apartment_living_room_246",
+  "room_type": "apartment_living_room",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "standard",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.65,
+      0
+    ],
+    [
+      3.65,
+      4.49
+    ],
+    [
+      0,
+      4.49
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.82,
+      "offset": 2.08,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 0.8,
+      "offset": 2.56,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_corner_sectional__1",
+      "furniture_id": "sofa_corner_sectional",
+      "rotatable": false,
+      "width": 2.2,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_round__1",
+      "furniture_id": "coffee_table_round",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall_slim__1",
+      "furniture_id": "tv_unit_wall_slim",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.25,
+      "height": 0.4,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "sofa": "facing_tv_min_2m_viewing_distance",
+    "sofa_bed": "space_for_conversion_1.8m_front",
+    "tv_unit": "opposite_main_seating"
+  },
+  "user_goals": {
+    "min_walkway": 0.54,
+    "priority": "aesthetics"
+  }
+}

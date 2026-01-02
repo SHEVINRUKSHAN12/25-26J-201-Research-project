@@ -1,0 +1,93 @@
+{
+  "room_id": "bathroom_972",
+  "room_type": "bathroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.31,
+      0
+    ],
+    [
+      2.31,
+      2.39
+    ],
+    [
+      0,
+      2.39
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.91,
+      "offset": 0.8,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.82,
+      "offset": 0.49,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.48,
+      "offset": 0.31,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.14,
+      "offset": 0.44,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_wall_hung__1",
+      "furniture_id": "commode_wall_hung",
+      "rotatable": false,
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "shower_cubicle__1",
+      "furniture_id": "shower_cubicle",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_wall_hung__1",
+      "furniture_id": "vanity_wall_hung",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.45,
+      "height": 0.5,
+      "customized": false
+    },
+    {
+      "instance_id": "towel_rack_floor__1",
+      "furniture_id": "towel_rack_floor",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.3,
+      "height": 0.9,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.63,
+    "priority": "accessibility"
+  }
+}
