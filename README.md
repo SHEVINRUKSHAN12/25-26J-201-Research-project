@@ -63,6 +63,49 @@ Here is how the different parts of the system talk to each other:
 
 ![System Architecture](assets/architecture_diagram.png)
 
+## 📂 Project Structure
+
+```
+Interior-space-optimization/
+├── backend/
+│   ├── app/
+│   │   ├── api/            # API endpoints
+│   │   ├── core/           # Config & security
+│   │   ├── db/             # Database connection
+│   │   ├── models/         # Pydantic models
+│   │   ├── modules/        # Core logic modules
+│   │   │   └── interior/   # Interior optimization logic
+│   │   │       ├── catalogs/       # Furniture catalogs
+│   │   │       ├── ml/             # ML models
+│   │   │       ├── scripts/        # Utility scripts
+│   │   │       ├── constraints.py  # Design rules
+│   │   │       ├── fitness.py      # GA fitness function
+│   │   │       └── optimizer.py    # Genetic Algorithm
+│   │   └── main.py         # App entry point
+│   ├── requirements.txt
+│   └── .env.example
+├── frontend/
+│   ├── public/             # Static assets
+│   ├── src/
+│   │   ├── api/            # API integration
+│   │   ├── components/     # React components
+│   │   │   ├── Dashboard/
+│   │   │   ├── Home/
+│   │   │   ├── Modules/
+│   │   │   ├── ProjectWizard/
+│   │   │   └── SharedLayout/
+│   │   ├── context/        # React Context (Auth, Theme)
+│   │   ├── data/           # Static data (Catalogs)
+│   │   ├── hooks/          # Custom hooks
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+├── datasets/               # ML Training data
+├── LICENSE
+└── README.md
+```
+
 ## Dependencies
 
 Here is the complete list of libraries and tools powering the project:
@@ -143,3 +186,7 @@ You'll need Node.js (v18+) and Python (v3.9+) installed.
     pip install -r requirements.txt
     uvicorn app.main:app --reload
     ```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
