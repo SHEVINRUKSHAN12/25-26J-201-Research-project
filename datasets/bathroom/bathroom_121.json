@@ -1,0 +1,93 @@
+{
+  "room_id": "bathroom_121",
+  "room_type": "bathroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.39,
+      0
+    ],
+    [
+      2.39,
+      2.33
+    ],
+    [
+      0,
+      2.33
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.96,
+      "offset": 0.85,
+      "kind": "door"
+    },
+    {
+      "wall": "left",
+      "width": 0.9,
+      "offset": 0.7,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 1.3,
+      "offset": 0.46,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.15,
+      "offset": 0.58,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_wall_hung__1",
+      "furniture_id": "commode_wall_hung",
+      "rotatable": false,
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "shower_cubicle__1",
+      "furniture_id": "shower_cubicle",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_floor_standing__1",
+      "furniture_id": "vanity_floor_standing",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "laundry_basket__1",
+      "furniture_id": "laundry_basket",
+      "rotatable": true,
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.6,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.68,
+    "priority": "aesthetics"
+  }
+}

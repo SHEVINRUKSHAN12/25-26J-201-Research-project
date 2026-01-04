@@ -1,0 +1,88 @@
+{
+  "room_id": "apartment_bedroom_190",
+  "room_type": "apartment_bedroom",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "standard",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.11,
+      0
+    ],
+    [
+      3.11,
+      3.43
+    ],
+    [
+      0,
+      3.43
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.8,
+      "offset": 1.45,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.07,
+      "offset": 1.33,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_double_platform__1",
+      "furniture_id": "bed_double_platform",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.22,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_sliding__1",
+      "furniture_id": "wardrobe_sliding",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table_wall_mounted__1",
+      "furniture_id": "side_table_wall_mounted",
+      "rotatable": false,
+      "width": 0.4,
+      "depth": 0.3,
+      "height": 0.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table_wall_mounted__2",
+      "furniture_id": "side_table_wall_mounted",
+      "rotatable": false,
+      "width": 0.4,
+      "depth": 0.3,
+      "height": 0.1,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "murphy_bed": "against_wall_with_clearance_for_fold",
+    "wardrobe": "near_entrance_or_corner"
+  },
+  "user_goals": {
+    "min_walkway": 0.65,
+    "priority": "space_efficiency"
+  }
+}

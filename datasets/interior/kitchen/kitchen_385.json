@@ -1,0 +1,68 @@
+{
+  "room_id": "kitchen_385",
+  "room_type": "kitchen",
+  "units": "meters",
+  "size_category": "small",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.63,
+      0
+    ],
+    [
+      2.63,
+      2.71
+    ],
+    [
+      0,
+      2.71
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.83,
+      "offset": 1.58,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 1.12,
+      "offset": 0.53,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__2",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "pantry": "along_walls_work_triangle",
+    "island": "center_1m_clearance_all_sides"
+  },
+  "user_goals": {
+    "min_walkway": 0.66,
+    "priority": "aesthetics"
+  }
+}

@@ -1,0 +1,84 @@
+{
+    "room_type": "dining_room",
+    "units": "meters",
+    "description": "Dining room furniture catalog - matches dataset furniture IDs.",
+    "furniture": [
+        {
+            "furniture_id": "dining_table_4_wood",
+            "category": "table",
+            "label": "4-Seater Wooden Dining Table",
+            "width": 1.2,
+            "depth": 0.8,
+            "height": 0.75,
+            "rotatable": true,
+            "image_2d": "/furniture/dining_room/2d/dining_table_4_wood.png",
+            "model_3d": "/furniture/dining_room/3d/dining_table_4_wood.png"
+        },
+        {
+            "furniture_id": "dining_table_6_wood",
+            "category": "table",
+            "label": "6-Seater Wooden Dining Table",
+            "width": 1.6,
+            "depth": 0.9,
+            "height": 0.75,
+            "rotatable": true,
+            "image_2d": "/furniture/dining_room/2d/dining_table_6_wood.png",
+            "model_3d": "/furniture/dining_room/3d/dining_table_6_wood.png"
+        },
+        {
+            "furniture_id": "dining_table_6_glass",
+            "category": "table",
+            "label": "6-Seater Glass Dining Table",
+            "width": 1.6,
+            "depth": 0.9,
+            "height": 0.75,
+            "rotatable": true,
+            "image_2d": "/furniture/dining_room/2d/dining_table_6_glass.png",
+            "model_3d": "/furniture/dining_room/3d/dining_table_6_glass.png"
+        },
+        {
+            "furniture_id": "dining_chair_wood",
+            "category": "seating",
+            "label": "Wooden Dining Chair",
+            "width": 0.45,
+            "depth": 0.45,
+            "height": 0.9,
+            "rotatable": true,
+            "image_2d": "/furniture/dining_room/2d/dining_chair_wood.png",
+            "model_3d": "/furniture/dining_room/3d/dining_chair_wood.png"
+        },
+        {
+            "furniture_id": "dining_chair_upholstered",
+            "category": "seating",
+            "label": "Upholstered Dining Chair",
+            "width": 0.5,
+            "depth": 0.5,
+            "height": 0.95,
+            "rotatable": true,
+            "image_2d": "/furniture/dining_room/2d/dining_chair_upholstered.png",
+            "model_3d": "/furniture/dining_room/3d/dining_chair_upholstered.png"
+        },
+        {
+            "furniture_id": "sideboard",
+            "category": "storage",
+            "label": "Sideboard/Buffet",
+            "width": 1.5,
+            "depth": 0.45,
+            "height": 0.85,
+            "rotatable": false,
+            "image_2d": "/furniture/dining_room/2d/sideboard.png",
+            "model_3d": "/furniture/dining_room/3d/sideboard.png"
+        },
+        {
+            "furniture_id": "display_cabinet",
+            "category": "storage",
+            "label": "Display Cabinet",
+            "width": 1.0,
+            "depth": 0.4,
+            "height": 1.8,
+            "rotatable": false,
+            "image_2d": "/furniture/dining_room/2d/display_cabinet.png",
+            "model_3d": "/furniture/dining_room/3d/display_cabinet.png"
+        }
+    ]
+}

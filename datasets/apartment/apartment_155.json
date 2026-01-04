@@ -1,0 +1,84 @@
+{
+  "room_id": "apartment_155",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.06,
+      0
+    ],
+    [
+      4.06,
+      3.83
+    ],
+    [
+      0,
+      3.83
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.86,
+      "offset": 0.8,
+      "kind": "door"
+    },
+    {
+      "wall": "bottom",
+      "width": 0.9,
+      "offset": 1.88,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.06,
+      "offset": 2.35,
+      "kind": "window"
+    },
+    {
+      "wall": "left",
+      "width": 1.43,
+      "offset": 1.79,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_murphy_vertical__1",
+      "furniture_id": "bed_murphy_vertical",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.4,
+      "height": 2.2,
+      "customized": false
+    },
+    {
+      "instance_id": "sofa_2seater_compact__1",
+      "furniture_id": "sofa_2seater_compact",
+      "rotatable": true,
+      "width": 1.4,
+      "depth": 0.75,
+      "height": 0.8,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_table_foldable__1",
+      "furniture_id": "dining_table_foldable",
+      "rotatable": true,
+      "width": 0.8,
+      "depth": 0.6,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.8,
+    "priority": "aesthetics"
+  }
+}

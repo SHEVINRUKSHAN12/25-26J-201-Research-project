@@ -1,0 +1,84 @@
+{
+  "room_id": "bedroom_846",
+  "room_type": "bedroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.99,
+      0
+    ],
+    [
+      3.99,
+      4.98
+    ],
+    [
+      0,
+      4.98
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.81,
+      "offset": 1.08,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.9,
+      "offset": 0.54,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 1.27,
+      "offset": 3.15,
+      "kind": "window"
+    },
+    {
+      "wall": "left",
+      "width": 1.45,
+      "offset": 2.37,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_bunk_standard__1",
+      "furniture_id": "bed_bunk_standard",
+      "rotatable": true,
+      "width": 1.9,
+      "depth": 1.0,
+      "height": 1.7,
+      "customized": false
+    },
+    {
+      "instance_id": "chest_drawers_4__1",
+      "furniture_id": "chest_drawers_4",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.5,
+      "height": 1.0,
+      "customized": false
+    },
+    {
+      "instance_id": "bean_bag_large__1",
+      "furniture_id": "bean_bag_large",
+      "rotatable": true,
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 0.8,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.73,
+    "priority": "aesthetics"
+  }
+}

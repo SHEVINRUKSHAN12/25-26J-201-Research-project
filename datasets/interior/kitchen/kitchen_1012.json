@@ -1,0 +1,86 @@
+{
+  "room_id": "kitchen_1012",
+  "room_type": "kitchen",
+  "polygon_type": "t_shaped",
+  "polygon_description": "T-shaped",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.92,
+      0
+    ],
+    [
+      3.92,
+      2.92
+    ],
+    [
+      5.49,
+      2.92
+    ],
+    [
+      5.49,
+      4.17
+    ],
+    [
+      0,
+      4.17
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.86,
+      "offset": 1.35,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.18,
+      "offset": 0.83,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__2",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "kitchen_island_storage__1",
+      "furniture_id": "kitchen_island_storage",
+      "rotatable": true,
+      "width": 1.5,
+      "depth": 0.9,
+      "height": 0.9,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "complex_shape": "avoid_furniture_in_cut_area",
+    "l_corner": "use_corner_for_storage_or_desk"
+  },
+  "user_goals": {
+    "min_walkway": 0.85,
+    "priority": "accessibility"
+  }
+}

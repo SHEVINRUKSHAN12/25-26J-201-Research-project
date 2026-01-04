@@ -1,0 +1,78 @@
+{
+  "room_id": "kitchen_520",
+  "room_type": "kitchen",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.07,
+      0
+    ],
+    [
+      4.07,
+      3.23
+    ],
+    [
+      0,
+      3.23
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.99,
+      "offset": 0.73,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.34,
+      "offset": 0.88,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.21,
+      "offset": 0.6,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_table_4_wood__1",
+      "furniture_id": "dining_table_4_wood",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "fridge_double_door__1",
+      "furniture_id": "fridge_double_door",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.7,
+      "height": 1.8,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.86,
+    "priority": "accessibility"
+  }
+}

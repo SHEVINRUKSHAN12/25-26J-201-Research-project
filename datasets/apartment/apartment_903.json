@@ -1,0 +1,84 @@
+{
+  "room_id": "apartment_903",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.34,
+      0
+    ],
+    [
+      4.34,
+      3.96
+    ],
+    [
+      0,
+      3.96
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.86,
+      "offset": 1.96,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.9,
+      "offset": 2.78,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.07,
+      "offset": 1.02,
+      "kind": "window"
+    },
+    {
+      "wall": "bottom",
+      "width": 1.21,
+      "offset": 2.54,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_bed_compact__1",
+      "furniture_id": "sofa_bed_compact",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_round__1",
+      "furniture_id": "coffee_table_round",
+      "rotatable": true,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_corner__1",
+      "furniture_id": "tv_unit_corner",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.8,
+      "height": 0.5,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.74,
+    "priority": "accessibility"
+  }
+}

@@ -1,0 +1,4 @@
+Error executing command: git add "ackend/app/api/endpoints/interior.py"
+STDOUT: 
+STDERR: fatal: pathspec 'ackend/app/api/endpoints/interior.py' did not match any files
+

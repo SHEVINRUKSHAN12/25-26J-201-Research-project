@@ -1,0 +1,78 @@
+{
+  "room_id": "dining_room_675",
+  "room_type": "dining_room",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.01,
+      0
+    ],
+    [
+      4.01,
+      4.59
+    ],
+    [
+      0,
+      4.59
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.81,
+      "offset": 1.82,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.1,
+      "offset": 2.66,
+      "kind": "window"
+    },
+    {
+      "wall": "bottom",
+      "width": 1.24,
+      "offset": 1.34,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "dining_table_6_wood__1",
+      "furniture_id": "dining_table_6_wood",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "display_cabinet__1",
+      "furniture_id": "display_cabinet",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.4,
+      "height": 1.8,
+      "customized": false
+    },
+    {
+      "instance_id": "sideboard__1",
+      "furniture_id": "sideboard",
+      "rotatable": false,
+      "width": 1.5,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.6,
+    "priority": "aesthetics"
+  }
+}

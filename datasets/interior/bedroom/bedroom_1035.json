@@ -1,0 +1,87 @@
+{
+  "room_id": "bedroom_1035",
+  "room_type": "bedroom",
+  "polygon_type": "irregular",
+  "polygon_description": "Irregular quadrilateral",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.64,
+      0.13
+    ],
+    [
+      4.51,
+      4.78
+    ],
+    [
+      0.13,
+      4.65
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.93,
+      "offset": 0.41,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.41,
+      "offset": 1.64,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_king_78x72__1",
+      "furniture_id": "bed_king_78x72",
+      "rotatable": true,
+      "width": 1.98,
+      "depth": 1.83,
+      "height": 0.6,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__2",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "complex_shape": "avoid_furniture_in_cut_area",
+    "l_corner": "use_corner_for_storage_or_desk"
+  },
+  "user_goals": {
+    "min_walkway": 0.83,
+    "priority": "accessibility"
+  }
+}

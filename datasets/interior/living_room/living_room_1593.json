@@ -1,0 +1,87 @@
+{
+  "room_id": "living_room_1593",
+  "room_type": "living_room",
+  "polygon_type": "irregular",
+  "polygon_description": "Irregular quadrilateral",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.81,
+      0.12
+    ],
+    [
+      5.6899999999999995,
+      6.75
+    ],
+    [
+      0.12,
+      6.63
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.94,
+      "offset": 1.13,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.4,
+      "offset": 1.53,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_l_shape_modern__1",
+      "furniture_id": "sofa_l_shape_modern",
+      "rotatable": true,
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_glass__1",
+      "furniture_id": "coffee_table_glass",
+      "rotatable": true,
+      "width": 1.0,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall__1",
+      "furniture_id": "tv_unit_wall",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.35,
+      "height": 1.8,
+      "customized": false
+    },
+    {
+      "instance_id": "bookshelf_open__1",
+      "furniture_id": "bookshelf_open",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.3,
+      "height": 1.8,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "complex_shape": "avoid_furniture_in_cut_area",
+    "l_corner": "use_corner_for_storage_or_desk"
+  },
+  "user_goals": {
+    "min_walkway": 0.84,
+    "priority": "accessibility"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "room_id": "apartment_846",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.12,
+      0
+    ],
+    [
+      4.12,
+      4.55
+    ],
+    [
+      0,
+      4.55
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.96,
+      "offset": 2.17,
+      "kind": "door"
+    },
+    {
+      "wall": "right",
+      "width": 0.9,
+      "offset": 2.36,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.08,
+      "offset": 0.93,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.44,
+      "offset": 0.7,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_loft__1",
+      "furniture_id": "bed_loft",
+      "rotatable": false,
+      "width": 1.4,
+      "depth": 2.0,
+      "height": 1.8,
+      "customized": false
+    },
+    {
+      "instance_id": "study_desk_foldable__1",
+      "furniture_id": "study_desk_foldable",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_sliding__1",
+      "furniture_id": "wardrobe_sliding",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.83,
+    "priority": "aesthetics"
+  }
+}

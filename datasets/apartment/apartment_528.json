@@ -1,0 +1,84 @@
+{
+  "room_id": "apartment_528",
+  "room_type": "apartment",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      5.46,
+      0
+    ],
+    [
+      5.46,
+      3.84
+    ],
+    [
+      0,
+      3.84
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.97,
+      "offset": 3.24,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.81,
+      "offset": 0.49,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.19,
+      "offset": 3.3,
+      "kind": "window"
+    },
+    {
+      "wall": "bottom",
+      "width": 1.01,
+      "offset": 1.3,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_bed_compact__1",
+      "furniture_id": "sofa_bed_compact",
+      "rotatable": true,
+      "width": 1.6,
+      "depth": 0.9,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "desk_wall_mounted_fold__1",
+      "furniture_id": "desk_wall_mounted_fold",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_corner__1",
+      "furniture_id": "wardrobe_corner",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.67,
+    "priority": "accessibility"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "room_id": "kitchen_524",
+  "room_type": "kitchen",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.23,
+      0
+    ],
+    [
+      3.23,
+      2.96
+    ],
+    [
+      0,
+      2.96
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.9,
+      "offset": 0.92,
+      "kind": "door"
+    },
+    {
+      "wall": "top",
+      "width": 0.92,
+      "offset": 0.49,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.01,
+      "offset": 0.65,
+      "kind": "window"
+    },
+    {
+      "wall": "bottom",
+      "width": 1.4,
+      "offset": 0.98,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_classic__1",
+      "furniture_id": "pantry_classic",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "kitchen_island_simple__1",
+      "furniture_id": "kitchen_island_simple",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.75,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "microwave_stand__1",
+      "furniture_id": "microwave_stand",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.45,
+      "height": 1.2,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.76,
+    "priority": "accessibility"
+  }
+}

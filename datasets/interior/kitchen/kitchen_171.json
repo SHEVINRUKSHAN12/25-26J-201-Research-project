@@ -1,0 +1,83 @@
+{
+  "room_id": "kitchen_171",
+  "room_type": "kitchen",
+  "units": "meters",
+  "size_category": "medium",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      3.16,
+      0
+    ],
+    [
+      3.16,
+      3.32
+    ],
+    [
+      0,
+      3.32
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "bottom",
+      "width": 0.84,
+      "offset": 1.86,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 0.92,
+      "offset": 0.22,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.19,
+      "offset": 1.03,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_modern__1",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_modern__2",
+      "furniture_id": "pantry_modern",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "kitchen_island_simple__1",
+      "furniture_id": "kitchen_island_simple",
+      "rotatable": true,
+      "width": 1.2,
+      "depth": 0.75,
+      "height": 0.9,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "pantry": "along_walls_work_triangle",
+    "island": "center_1m_clearance_all_sides"
+  },
+  "user_goals": {
+    "min_walkway": 0.66,
+    "priority": "accessibility"
+  }
+}

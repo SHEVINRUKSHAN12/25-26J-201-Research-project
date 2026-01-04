@@ -1,0 +1,87 @@
+{
+  "room_id": "apartment_kitchen_326",
+  "room_type": "apartment_kitchen",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "compact",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.23,
+      0
+    ],
+    [
+      2.23,
+      2.41
+    ],
+    [
+      0,
+      2.41
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.78,
+      "offset": 1.28,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.05,
+      "offset": 0.37,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "pantry_tall_slim__1",
+      "furniture_id": "pantry_tall_slim",
+      "rotatable": false,
+      "width": 0.5,
+      "depth": 0.55,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_base_unit__1",
+      "furniture_id": "pantry_base_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.55,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "pantry_wall_unit__1",
+      "furniture_id": "pantry_wall_unit",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.35,
+      "height": 0.7,
+      "customized": false
+    },
+    {
+      "instance_id": "dining_table_wall_mounted__1",
+      "furniture_id": "dining_table_wall_mounted",
+      "rotatable": false,
+      "width": 0.7,
+      "depth": 0.5,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "pantry": "along_walls_L_or_galley_layout",
+    "breakfast_bar": "peninsula_or_against_wall"
+  },
+  "user_goals": {
+    "min_walkway": 0.69,
+    "priority": "space_efficiency"
+  }
+}

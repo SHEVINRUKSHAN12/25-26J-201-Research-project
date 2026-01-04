@@ -277,7 +277,7 @@ const ProjectDetails = () => {
                     </div>
                     <div className="info-item">
                         <span>Budget</span>
-                        <strong>{project.budget?.charAt(0).toUpperCase() + project.budget?.slice(1)}</strong>
+                        <strong>{project.budget ? project.budget.charAt(0).toUpperCase() + project.budget.slice(1) : 'Not specified'}</strong>
                     </div>
                 </div>
             </div>

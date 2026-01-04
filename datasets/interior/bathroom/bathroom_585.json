@@ -1,0 +1,78 @@
+{
+  "room_id": "apartment_bathroom_085",
+  "room_type": "apartment_bathroom",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "compact",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      1.43,
+      0
+    ],
+    [
+      1.43,
+      1.64
+    ],
+    [
+      0,
+      1.64
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.75,
+      "offset": 0.33,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 0.45,
+      "offset": 0.54,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_wall_hung__1",
+      "furniture_id": "commode_wall_hung",
+      "rotatable": false,
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "shower_corner__1",
+      "furniture_id": "shower_corner",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_pedestal__1",
+      "furniture_id": "vanity_pedestal",
+      "rotatable": false,
+      "width": 0.5,
+      "depth": 0.4,
+      "height": 0.8,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "commode": "min_0.35m_from_walls",
+    "shower": "corner_placement"
+  },
+  "user_goals": {
+    "min_walkway": 0.61,
+    "priority": "accessibility"
+  }
+}

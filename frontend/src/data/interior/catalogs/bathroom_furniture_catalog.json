@@ -1,0 +1,117 @@
+{
+  "room_type": "bathroom",
+  "units": "meters",
+  "description": "Bathroom furniture catalog - matches dataset furniture IDs.",
+  "furniture": [
+    {
+      "furniture_id": "commode_standard",
+      "category": "sanitary",
+      "label": "Standard Commode",
+      "width": 0.4,
+      "depth": 0.65,
+      "height": 0.4,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/commode_standard.png",
+      "model_3d": "/furniture/bathroom/3d/commode_standard.png"
+    },
+    {
+      "furniture_id": "commode_wall_hung",
+      "category": "sanitary",
+      "label": "Wall-Hung Commode",
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/commode_wall_hung.png",
+      "model_3d": "/furniture/bathroom/3d/commode_wall_hung.png"
+    },
+    {
+      "furniture_id": "shower_cubicle",
+      "category": "sanitary",
+      "label": "Shower Cubicle",
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 2.0,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/shower_cubicle.png",
+      "model_3d": "/furniture/bathroom/3d/shower_cubicle.png"
+    },
+    {
+      "furniture_id": "shower_area",
+      "category": "sanitary",
+      "label": "Open Shower Area",
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/shower_area.png",
+      "model_3d": "/furniture/bathroom/3d/shower_area.png"
+    },
+    {
+      "furniture_id": "vanity_wall_hung",
+      "category": "vanity",
+      "label": "Wall-Hung Vanity",
+      "width": 0.8,
+      "depth": 0.45,
+      "height": 0.5,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/vanity_wall_hung.png",
+      "model_3d": "/furniture/bathroom/3d/vanity_wall_hung.png"
+    },
+    {
+      "furniture_id": "vanity_floor_standing",
+      "category": "vanity",
+      "label": "Floor-Standing Vanity",
+      "width": 0.9,
+      "depth": 0.45,
+      "height": 0.85,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/vanity_floor_standing.png",
+      "model_3d": "/furniture/bathroom/3d/vanity_floor_standing.png"
+    },
+    {
+      "furniture_id": "mirror_cabinet",
+      "category": "storage",
+      "label": "Mirror Cabinet",
+      "width": 0.6,
+      "depth": 0.15,
+      "height": 0.7,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/mirror_cabinet.png",
+      "model_3d": "/furniture/bathroom/3d/mirror_cabinet.png"
+    },
+    {
+      "furniture_id": "bathtub_standard",
+      "category": "sanitary",
+      "label": "Standard Bathtub",
+      "width": 1.7,
+      "depth": 0.75,
+      "height": 0.55,
+      "rotatable": false,
+      "image_2d": "/furniture/bathroom/2d/bathtub_standard.png",
+      "model_3d": "/furniture/bathroom/3d/bathtub_standard.png"
+    },
+    {
+      "furniture_id": "laundry_basket",
+      "category": "storage",
+      "label": "Laundry Basket",
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.6,
+      "rotatable": true,
+      "image_2d": "/furniture/bathroom/2d/laundry_basket.png",
+      "model_3d": "/furniture/bathroom/3d/laundry_basket.png"
+    },
+    {
+      "furniture_id": "towel_rack_floor",
+      "category": "storage",
+      "label": "Floor Towel Rack",
+      "width": 0.6,
+      "depth": 0.3,
+      "height": 0.9,
+      "rotatable": true,
+      "image_2d": "/furniture/bathroom/2d/towel_rack_floor.png",
+      "model_3d": "/furniture/bathroom/3d/towel_rack_floor.png"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "room_id": "living_room_437",
+  "room_type": "living_room",
+  "units": "meters",
+  "size_category": "medium",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      4.91,
+      0
+    ],
+    [
+      4.91,
+      5.13
+    ],
+    [
+      0,
+      5.13
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.88,
+      "offset": 1.01,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 0.97,
+      "offset": 3.57,
+      "kind": "window"
+    },
+    {
+      "wall": "top",
+      "width": 1.09,
+      "offset": 0.36,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "sofa_l_shape_modern__1",
+      "furniture_id": "sofa_l_shape_modern",
+      "rotatable": true,
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "coffee_table_glass__1",
+      "furniture_id": "coffee_table_glass",
+      "rotatable": true,
+      "width": 1.0,
+      "depth": 0.6,
+      "height": 0.45,
+      "customized": false
+    },
+    {
+      "instance_id": "tv_unit_wall__1",
+      "furniture_id": "tv_unit_wall",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.35,
+      "height": 1.8,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "sofa": "facing_tv_min_2.5m_viewing_distance",
+    "tv_unit": "opposite_main_seating",
+    "coffee_table": "center_0.4m_from_sofa"
+  },
+  "user_goals": {
+    "min_walkway": 0.65,
+    "priority": "accessibility"
+  }
+}

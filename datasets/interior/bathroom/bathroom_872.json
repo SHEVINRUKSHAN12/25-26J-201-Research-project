@@ -1,0 +1,87 @@
+{
+  "room_id": "apartment_bathroom_372",
+  "room_type": "apartment_bathroom",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "compact",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      1.49,
+      0
+    ],
+    [
+      1.49,
+      1.62
+    ],
+    [
+      0,
+      1.62
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.83,
+      "offset": 0.2,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "right",
+      "width": 0.44,
+      "offset": 0.93,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_compact__1",
+      "furniture_id": "commode_compact",
+      "rotatable": false,
+      "width": 0.35,
+      "depth": 0.6,
+      "height": 0.4,
+      "customized": false
+    },
+    {
+      "instance_id": "shower_corner__1",
+      "furniture_id": "shower_corner",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_compact__1",
+      "furniture_id": "vanity_compact",
+      "rotatable": false,
+      "width": 0.45,
+      "depth": 0.35,
+      "height": 0.5,
+      "customized": false
+    },
+    {
+      "instance_id": "mirror_cabinet_slim__1",
+      "furniture_id": "mirror_cabinet_slim",
+      "rotatable": false,
+      "width": 0.4,
+      "depth": 0.12,
+      "height": 0.6,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "commode": "min_0.35m_from_walls",
+    "shower": "corner_placement"
+  },
+  "user_goals": {
+    "min_walkway": 0.53,
+    "priority": "accessibility"
+  }
+}

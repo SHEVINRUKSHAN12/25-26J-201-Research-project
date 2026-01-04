@@ -1,0 +1,93 @@
+{
+  "room_id": "bathroom_756",
+  "room_type": "bathroom",
+  "units": "meters",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.13,
+      0
+    ],
+    [
+      2.13,
+      2.13
+    ],
+    [
+      0,
+      2.13
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.96,
+      "offset": 0.48,
+      "kind": "door"
+    },
+    {
+      "wall": "left",
+      "width": 0.92,
+      "offset": 0.67,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.2,
+      "offset": 0.36,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 1.32,
+      "offset": 0.31,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "commode_wall_hung__1",
+      "furniture_id": "commode_wall_hung",
+      "rotatable": false,
+      "width": 0.38,
+      "depth": 0.55,
+      "height": 0.35,
+      "customized": false
+    },
+    {
+      "instance_id": "shower_area__1",
+      "furniture_id": "shower_area",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "vanity_floor_standing__1",
+      "furniture_id": "vanity_floor_standing",
+      "rotatable": false,
+      "width": 0.9,
+      "depth": 0.45,
+      "height": 0.85,
+      "customized": false
+    },
+    {
+      "instance_id": "mirror_cabinet__1",
+      "furniture_id": "mirror_cabinet",
+      "rotatable": false,
+      "width": 0.6,
+      "depth": 0.15,
+      "height": 0.7,
+      "customized": false
+    }
+  ],
+  "user_goals": {
+    "min_walkway": 0.71,
+    "priority": "space_efficiency"
+  }
+}

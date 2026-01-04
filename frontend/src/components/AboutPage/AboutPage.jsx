@@ -82,6 +82,55 @@ const AboutPage = () => {
                 </div>
             </section>
 
+            <section className="ai-features">
+                <div className="container">
+                    <motion.div
+                        className="features-header"
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                    >
+                        <h2>AI-Powered Optimization</h2>
+                        <p className="section-desc">Powered by a Hybrid Engine combining Genetic Algorithms and Neural Networks.</p>
+                    </motion.div>
+                    <div className="findings-grid">
+                        <motion.div
+                            className="finding-card ai-card"
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.1 }}
+                        >
+                            <div className="card-icon">🧠</div>
+                            <h3>Hybrid Intelligence</h3>
+                            <p>Combines the precision of Geometric Constraints with the intuition of Deep Learning for optimal results.</p>
+                        </motion.div>
+                        <motion.div
+                            className="finding-card ai-card"
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.2 }}
+                        >
+                            <div className="card-icon">📊</div>
+                            <h3>6,000+ Scenarios</h3>
+                            <p>Our Neural Network is trained on a massive dataset of over 6,000 diverse room configurations.</p>
+                        </motion.div>
+                        <motion.div
+                            className="finding-card ai-card"
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.3 }}
+                        >
+                            <div className="card-icon">⚡</div>
+                            <h3>Smart Heuristics</h3>
+                            <p>The AI predicts layout quality instantly, guiding the optimizer to find the best solution 30% faster.</p>
+                        </motion.div>
+                    </div>
+                </div>
+            </section>
+
             <section className="about-team">
                 <div className="container">
                     <motion.div

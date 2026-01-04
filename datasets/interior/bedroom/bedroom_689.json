@@ -1,0 +1,79 @@
+{
+  "room_id": "apartment_bedroom_189",
+  "room_type": "apartment_bedroom",
+  "property_type": "apartment",
+  "units": "meters",
+  "size_category": "compact",
+  "room_polygon": [
+    [
+      0,
+      0
+    ],
+    [
+      2.72,
+      0
+    ],
+    [
+      2.72,
+      3.06
+    ],
+    [
+      0,
+      3.06
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "top",
+      "width": 0.76,
+      "offset": 1.0,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "bottom",
+      "width": 0.89,
+      "offset": 0.57,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_murphy_vertical__1",
+      "furniture_id": "bed_murphy_vertical",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.4,
+      "height": 2.2,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_sliding__1",
+      "furniture_id": "wardrobe_sliding",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "study_desk_foldable__1",
+      "furniture_id": "study_desk_foldable",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.5,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "murphy_bed": "against_wall_with_clearance_for_fold",
+    "wardrobe": "near_entrance_or_corner"
+  },
+  "user_goals": {
+    "min_walkway": 0.69,
+    "priority": "space_efficiency"
+  }
+}
