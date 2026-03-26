@@ -27,3 +27,6 @@ def root():
 # Register Routers
 from app.api.endpoints import interior
 app.include_router(interior.router, prefix=f"{settings.API_V1_STR}/interior", tags=["interior"])
+
+from app.api.endpoints import arcplan_compat
+app.include_router(arcplan_compat.router, prefix="/api/arcplan", tags=["arcplan"])
