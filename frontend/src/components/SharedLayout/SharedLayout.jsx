@@ -111,15 +111,15 @@ const SharedLayout = () => {
             <footer className="layout-footer">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <span>Home</span> Scope
+                        <span>Home</span>Scope
+                    </div>
+                    <div className="footer-copyright">
+                        &copy; 2026 Project Home Scope. All rights reserved.
                     </div>
                     <div className="footer-links">
                         <Link to="/about">About</Link>
                         <Link to="/contact">Contact</Link>
                     </div>
-                </div>
-                <div className="footer-copyright">
-                    © 2025 Home Scope. All rights reserved.
                 </div>
             </footer>
         </div>
