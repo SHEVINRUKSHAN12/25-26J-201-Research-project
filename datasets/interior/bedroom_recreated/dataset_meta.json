@@ -1,0 +1,36 @@
+{
+  "dataset": "bedroom_recreated",
+  "catalog_path": "E:\\IT_Projects\\Reaserch Project\\Research_project_25-26J-201\\frontend\\src\\data\\interior\\catalogs\\bedroom_furniture_catalog.json",
+  "scenarios": 1200,
+  "furniture_frequency": {
+    "bed_single_72x36": 439,
+    "wardrobe_small": 696,
+    "lamp_standard": 1885,
+    "bed_double_72x48": 387,
+    "side_table": 1512,
+    "dressing_table": 539,
+    "bed_queen_72x60": 274,
+    "wardrobe_large": 428,
+    "chair": 466,
+    "round_table": 221,
+    "sofa_bedroom": 159,
+    "stand_standard": 368,
+    "bed_king_72x72": 100
+  },
+  "size_categories": {
+    "medium": 500,
+    "large": 601,
+    "small": 99
+  },
+  "lamp_distribution": {
+    "3": 186,
+    "2": 470,
+    "1": 387,
+    "0": 157
+  },
+  "notes": [
+    "Generated from current bedroom catalog IDs and dimensions.",
+    "Curtains excluded from auto-generated furniture because optimizer treats them as user-controlled decor.",
+    "Doors and windows are fixed structural context."
+  ]
+}

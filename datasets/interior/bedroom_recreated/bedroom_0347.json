@@ -1,0 +1,109 @@
+{
+  "room_id": "bedroom_0347",
+  "room_type": "bedroom",
+  "units": "meters",
+  "size_category": "large",
+  "room_polygon": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      6.67,
+      0.0
+    ],
+    [
+      6.67,
+      3.38
+    ],
+    [
+      0.0,
+      3.38
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "right",
+      "width": 0.89,
+      "offset": 1.87,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "left",
+      "width": 1.59,
+      "offset": 0.48,
+      "kind": "window"
+    },
+    {
+      "wall": "right",
+      "width": 0.91,
+      "offset": 0.42,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_double_72x48__1",
+      "furniture_id": "bed_double_72x48",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.22,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_small__1",
+      "furniture_id": "wardrobe_small",
+      "rotatable": false,
+      "width": 1.2,
+      "depth": 0.55,
+      "height": 2.0,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "round_table__1",
+      "furniture_id": "round_table",
+      "rotatable": false,
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 0.75,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "wardrobe": "against_wall_with_clearance",
+    "dressing_table": "prefer_near_window_when_selected",
+    "lamp_pair": "if_exactly_two_lamps_then_beside_bed",
+    "curtains": "user_controlled_not_auto_generated"
+  },
+  "user_goals": {
+    "min_walkway": 0.69,
+    "priority": "accessibility"
+  },
+  "policies": {
+    "openings_fixed": true,
+    "curtains_auto_placement": false,
+    "optimizer_scope": "bedroom_only"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "room_id": "bedroom_0969",
+  "room_type": "bedroom",
+  "units": "meters",
+  "size_category": "large",
+  "room_polygon": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      5.48,
+      0.0
+    ],
+    [
+      5.48,
+      4.07
+    ],
+    [
+      0.0,
+      4.07
+    ]
+  ],
+  "doors": [
+    {
+      "wall": "left",
+      "width": 0.89,
+      "offset": 1.83,
+      "kind": "door"
+    }
+  ],
+  "windows": [
+    {
+      "wall": "top",
+      "width": 1.52,
+      "offset": 2.29,
+      "kind": "window"
+    }
+  ],
+  "selected_furniture": [
+    {
+      "instance_id": "bed_double_72x48__1",
+      "furniture_id": "bed_double_72x48",
+      "rotatable": true,
+      "width": 1.83,
+      "depth": 1.22,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "wardrobe_large__1",
+      "furniture_id": "wardrobe_large",
+      "rotatable": false,
+      "width": 1.8,
+      "depth": 0.6,
+      "height": 2.1,
+      "customized": false
+    },
+    {
+      "instance_id": "side_table__1",
+      "furniture_id": "side_table",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.45,
+      "height": 0.55,
+      "customized": false
+    },
+    {
+      "instance_id": "dressing_table__1",
+      "furniture_id": "dressing_table",
+      "rotatable": false,
+      "width": 1.0,
+      "depth": 0.45,
+      "height": 0.75,
+      "customized": false
+    },
+    {
+      "instance_id": "chair__1",
+      "furniture_id": "chair",
+      "rotatable": true,
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.9,
+      "customized": false
+    },
+    {
+      "instance_id": "lamp_standard__1",
+      "furniture_id": "lamp_standard",
+      "rotatable": false,
+      "width": 0.15,
+      "depth": 0.15,
+      "height": 1.6,
+      "customized": false
+    },
+    {
+      "instance_id": "lamp_standard__2",
+      "furniture_id": "lamp_standard",
+      "rotatable": false,
+      "width": 0.15,
+      "depth": 0.15,
+      "height": 1.6,
+      "customized": false
+    }
+  ],
+  "placement_rules": {
+    "bed": "headboard_against_wall_not_window",
+    "wardrobe": "against_wall_with_clearance",
+    "dressing_table": "prefer_near_window_when_selected",
+    "lamp_pair": "if_exactly_two_lamps_then_beside_bed",
+    "curtains": "user_controlled_not_auto_generated"
+  },
+  "user_goals": {
+    "min_walkway": 0.74,
+    "priority": "accessibility"
+  },
+  "policies": {
+    "openings_fixed": true,
+    "curtains_auto_placement": false,
+    "optimizer_scope": "bedroom_only"
+  }
+}
