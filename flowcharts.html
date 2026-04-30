@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper Flowcharts</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .chart-wrapper {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .btn-download {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .btn-download:hover {
+            background-color: #2980b9;
+        }
+
+        .mermaid {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function downloadSVG(wrapperId, filename) {
+            const wrapper = document.getElementById(wrapperId);
+            const svgElement = wrapper.querySelector('svg');
+
+            if (!svgElement) {
+                alert('Diagram is still loading. Please wait a moment.');
+                return;
+            }
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const svgData = new XMLSerializer().serializeToString(svgElement);
+
+            // Create a Blob from the SVG data
+            const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(svgBlob);
+
+            const img = new Image();
+            img.onload = function () {
+                // Scale up for better quality (High DPI)
+                const scale = 3;
+                const width = svgElement.getBoundingClientRect().width * scale;
+                const height = svgElement.getBoundingClientRect().height * scale;
+
+                canvas.width = width;
+                canvas.height = height;
+
+                // Fill white background
+                ctx.fillStyle = 'white';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Draw image
+                ctx.drawImage(img, 0, 0, width, height);
+
+                // Trigger download
+                const pngUrl = canvas.toDataURL('image/png');
+                const downloadLink = document.createElement('a');
+                downloadLink.href = pngUrl;
+                downloadLink.download = filename;
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+
+                URL.revokeObjectURL(url);
+            };
+            img.src = url;
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- Chart 1 -->
+    <div class="chart-wrapper" id="chart1-wrapper">
+        <h2>Figure 1: System Workflow</h2>
+        <div class="mermaid">
+            flowchart TD
+            %% Frontend Section
+            subgraph Client_Side ["Frontend (React Application)"]
+            A(["User Start"]) --> B["Select Room Dimensions & Shape"]
+            B --> C["Add Furniture Items<br />(Select from Catalog)"]
+            C --> D["Set Constraints<br />(Fixed Positions, Windows)"]
+            D --> E["Click 'Optimize Layout'"]
+            end
+
+            E -->| "POST Request (JSON)" | F["Backend API Endpoint"]
+
+            %% Backend Section
+            subgraph Server_Side ["Backend (FastAPI & Python)"]
+            F --> G["Data Validation & Parsing"]
+            G --> H["Initialize Genetic Optimizer"]
+
+            %% Core Optimization Logic
+            subgraph Optimization_Engine ["Optimization Engine"]
+            H --> I["Generate Initial Population"]
+            I --> J["Calculate Fitness"]
+            J --> K{"Is Optimal?"}
+            K -- "No" --> L["Apply Genetic Operators<br />(Crossover & Mutation)"]
+            L --> J
+            K -- "Yes / Timeout" --> M["Select Best Layout"]
+            end
+
+            M --> N["Serialize Result to JSON"]
+            end
+
+            N -->| "Response (Coordinates & Rotation)" | O["Frontend Visualizer"]
+
+            %% Output
+            subgraph Output_Display ["Result Visualization"]
+            O --> P["Render 2D Floor Plan"]
+            P --> Q["Display Fitness/Quality Score"]
+            end
+        </div>
+        <button class="btn-download" onclick="downloadSVG('chart1-wrapper', 'system_workflow.png')">Download
+            PNG</button>
+    </div>
+
+    <!-- Chart 2 -->
+    <div class="chart-wrapper" id="chart2-wrapper">
+        <h2>Figure 2: Optimization Algorithm Logic</h2>
+        <div class="mermaid">
+            flowchart TD
+            A["Select Room Type<br />(Bedroom, Living Room, Kitchen)"]
+            B["Input Room Geometry<br />(Room Shape & Dimensions)"]
+            C["Furniture Selection<br />(Type, Size, Constraints)"]
+            D["Generate Initial Population<br />(Random Layouts)"]
+
+            subgraph Fitness_Evaluation ["Fitness Evaluation Process"]
+            E["Evaluate Layouts"]
+            E1["Geometric Validation<br />(Overlap, Boundary, Alignment)"]
+            E2["ML-Based Quality Score<br />(Aesthetic Prediction)"]
+            E3["Calculate Weighted Fitness<br />(Score = w1*Geo + w2*ML)"]
+            end
+
+            F["Genetic Operations<br />(Selection, Crossover, Mutation)"]
+            G{"Termination Condition Met?<br />(Max Generations)"}
+            H["Optimized Interior Layout<br />(2D Plan Output)"]
+
+            A --> B
+            B --> C
+            C --> D
+            D --> E
+            E --> E1
+            E --> E2
+            E1 --> E3
+            E2 --> E3
+            E3 --> G
+            G -- "No" --> F
+            F --> E
+            G -- "Yes" --> H
+        </div>
+        <button class="btn-download" onclick="downloadSVG('chart2-wrapper', 'algorithm_logic.png')">Download
+            PNG</button>
+    </div>
+
+</body>
+
+</html>

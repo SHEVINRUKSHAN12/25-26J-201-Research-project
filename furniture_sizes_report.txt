@@ -1,0 +1,100 @@
+
+--- apartment ---
+Standard Single Bed: 1.83w x 0.91d x 0.55h
+Single Bed with Storage: 1.83w x 0.91d x 0.6h
+Murphy Bed (Fold-up): 1.0w x 0.4d x 2.2h
+Loft Bed (Elevated): 1.4w x 2.0d x 1.8h
+Compact 2-Seater Sofa: 1.4w x 0.75d x 0.8h
+Convertible Sofa Bed: 1.8w x 0.9d x 0.85h
+Round Coffee Table: 0.6w x 0.6d x 0.45h
+Nesting Coffee Table Set: 0.7w x 0.5d x 0.45h
+Foldable Dining Table: 0.8w x 0.6d x 0.75h
+Wall-Mounted Drop-leaf Table: 0.7w x 0.5d x 0.75h
+Sliding Door Wardrobe: 1.2w x 0.55d x 2.0h
+Corner Wardrobe: 1.0w x 1.0d x 2.0h
+Corner TV Unit: 1.0w x 0.8d x 0.5h
+Foldable Study Desk: 0.8w x 0.5d x 0.75h
+Room Divider Shelf: 1.0w x 0.35d x 1.5h
+Entryway Console Table: 1.2w x 0.35d x 0.8h
+Shoe Rack with Bench: 0.9w x 0.35d x 0.45h
+Wall-Mounted Folding Desk: 0.8w x 0.5d x 0.75h
+Compact Sofa Bed: 1.6w x 0.9d x 0.85h
+
+--- bathroom ---
+Standard Commode: 0.4w x 0.65d x 0.4h
+Wall-Hung Commode: 0.38w x 0.55d x 0.35h
+Shower Cubicle: 0.9w x 0.9d x 2.0h
+Open Shower Area: 1.0w x 1.0d x 2.0h
+Wall-Hung Vanity: 0.8w x 0.45d x 0.5h
+Floor-Standing Vanity: 0.9w x 0.45d x 0.85h
+Mirror Cabinet: 0.6w x 0.15d x 0.7h
+Standard Bathtub: 1.7w x 0.75d x 0.55h
+Laundry Basket: 0.4w x 0.4d x 0.6h
+Floor Towel Rack: 0.6w x 0.3d x 0.9h
+
+--- bedroom ---
+Single Bed (72x36 in): 1.83w x 0.91d x 0.55h
+Double Bed (72x48 in): 1.83w x 1.22d x 0.55h
+Queen Bed (72x60 in): 1.83w x 1.52d x 0.55h
+King Bed (72x72 in): 1.83w x 1.83d x 0.55h
+Small Wardrobe: 1.2w x 0.55d x 2.0h
+Large Wardrobe: 1.8w x 0.6d x 2.1h
+Side Table: 0.5w x 0.45d x 0.55h
+Dressing Table: 1.0w x 0.45d x 0.75h
+Chair: 0.5w x 0.5d x 0.9h
+Sofa: 1.8w x 0.8d x 0.85h
+Standing Lamp: 0.15w x 0.15d x 1.6h
+Stand: 0.65w x 0.5d x 1.2h
+Round Table: 0.8w x 0.8d x 0.75h
+Standard Window: 0.6w x 0.1d x 1.2h
+  -> [WARNING - SMALL]
+Standard Door: 0.8w x 0.1d x 2.1h
+  -> [WARNING - SMALL]
+Curtains: 0.6w x 0.15d x 2.2h
+
+--- dining_room ---
+4-Seater Wooden Dining Table: 1.2w x 0.8d x 0.75h
+6-Seater Wooden Dining Table: 1.6w x 0.9d x 0.75h
+6-Seater Glass Dining Table: 1.6w x 0.9d x 0.75h
+Wooden Dining Chair: 0.45w x 0.45d x 0.9h
+Upholstered Dining Chair: 0.5w x 0.5d x 0.95h
+Standard Window: 0.6w x 0.1d x 1.2h
+  -> [WARNING - SMALL]
+Sideboard/Buffet: 1.5w x 0.45d x 0.85h
+Display Cabinet: 1.0w x 0.4d x 1.8h
+
+--- kitchen ---
+Modern Pantry Unit: 0.6w x 0.6d x 2.1h
+Classic Pantry Unit: 0.6w x 0.6d x 2.1h
+Simple Kitchen Island: 1.2w x 0.75d x 0.9h
+4-Seater Wooden Dining Table: 1.2w x 0.8d x 0.75h
+Standard Door: 0.8w x 0.1d x 2.1h
+  -> [WARNING - SMALL]
+Metal Bar Stool: 0.4w x 0.4d x 0.75h
+Double Door Refrigerator: 0.9w x 0.7d x 1.8h
+Single Door Refrigerator: 0.6w x 0.65d x 1.6h
+Standard Window: 0.6w x 0.1d x 1.2h
+  -> [WARNING - SMALL]
+Microwave Stand: 0.6w x 0.45d x 1.2h
+
+--- living_room ---
+Modern L-Shape Sofa: 2.5w x 1.5d x 0.85h
+Classic L-Shape Sofa: 2.7w x 1.6d x 0.9h
+Minimalist 3-Seater Sofa: 2.0w x 0.8d x 0.8h
+Glass Coffee Table: 1.0w x 0.6d x 0.45h
+Wooden Coffee Table: 1.1w x 0.6d x 0.45h
+Wall-Mounted TV Unit: 1.8w x 0.35d x 1.8h
+Floor Stand TV Unit: 1.6w x 0.45d x 0.5h
+Open Bookshelf: 0.8w x 0.3d x 1.8h
+Recliner Chair: 0.9w x 0.9d x 1.0h
+Round Ottoman: 0.6w x 0.6d x 0.45h
+Modern Floor Lamp: 0.2w x 0.2d x 1.6h
+Large Indoor Plant: 0.5w x 0.5d x 1.2h
+Round Side Table: 0.5w x 0.5d x 0.55h
+Standard Window: 0.6w x 0.1d x 1.2h
+  -> [WARNING - SMALL]
+Large Window: 1.6w x 0.1d x 1.5h
+  -> [WARNING - SMALL]
+Standard Door: 0.8w x 0.1d x 2.1h
+  -> [WARNING - SMALL]
+Curtains: 0.6w x 0.15d x 2.2h

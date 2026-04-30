@@ -1,0 +1,31 @@
+INTERIOR OPTIMIZATION EXPERIMENTAL RESULTS
+============================================================
+
+Bedroom:
+  Area: 14.1 m²
+  Items: 4
+  Fitness: -29.3
+  Time: 9.8s
+  Status: Partial
+
+Living Room:
+  Area: 18.0 m²
+  Items: 5
+  Fitness: -29.0
+  Time: 9.0s
+  Status: Partial
+
+Kitchen:
+  Area: 9.9 m²
+  Items: 3
+  Fitness: -28.6
+  Time: 9.2s
+  Status: Partial
+
+Compact Bedroom:
+  Area: 9.0 m²
+  Items: 4
+  Fitness: -29.0
+  Time: 11.4s
+  Status: Partial
+

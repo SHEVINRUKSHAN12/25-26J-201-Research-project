@@ -1,0 +1,49 @@
+BEDROOM OPTIMIZATION RESULTS
+============================================================
+
+Bedroom:
+  Area: 14.0 m²
+  Items: 4
+  Fitness: -29.2
+  Time: 4.8s
+  Status: Partial
+
+Large Bedroom:
+  Area: 18.0 m²
+  Items: 4
+  Fitness: -28.9
+  Time: 3.1s
+  Status: Partial
+
+Small Bedroom:
+  Area: 9.9 m²
+  Items: 3
+  Fitness: -28.9
+  Time: 3.1s
+  Status: Partial
+
+Compact Bedroom:
+  Area: 9.0 m²
+  Items: 4
+  Fitness: -29.1
+  Time: 3.4s
+  Status: Partial
+
+
+LATEX TABLE:
+\begin{table}[htbp]
+\caption{Interior Space Optimization Results}
+\label{tab:interior_optimization}
+\centering
+\small
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Room} & \textbf{Area (m$^2$)} & \textbf{Items} & \textbf{Fitness} & \textbf{Time (s)} & \textbf{Status} \\
+\midrule
+Bedroom & 14 & 4 & -29.2 & 4.8 & Partial \\
+Large Bedroom & 18 & 4 & -28.9 & 3.1 & Partial \\
+Small Bedroom & 10 & 3 & -28.9 & 3.1 & Partial \\
+Compact Bedroom & 9 & 4 & -29.1 & 3.4 & Partial \\
+\bottomrule
+\end{tabular}
+\end{table}
